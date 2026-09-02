@@ -2,38 +2,38 @@
 
 Research snapshot: 2026-08-20
 
-This audit rates all 173 sources in the Animal Welfare Reading List for a quality-first pruning pass. It treats the catalog as a set of links, not as permission to copy or train on the linked works. The 65 `REMOVE` decisions were applied to the catalog on 2026-08-20; the other recommendations remain for manual review.
+This audit rates all 173 sources in the Animal Welfare Reading List for a quality-first pruning pass. It treats the catalog as a set of links, not as permission to copy or train on the linked works. The 78 `REMOVE` decisions were applied to the catalog by 2026-09-02; the other recommendations remain for manual review.
 
 ## Result
 
 | Recommendation | Sources | Meaning |
 | --- | ---: | --- |
-| `KEEP` | 40 | The current root or section is focused, strong, and useful enough to retain. |
-| `KEEP-PAGES` | 61 | Do not retain the broad root unchanged; replace it with a small set of reviewed pages or sections. |
-| `VERIFY` | 7 | Resolve a material quality, maintenance, access, or rights question before deciding. |
-| `REMOVE` | 65 | Remove because the source is redundant, weak, off-scope, dead, too restricted, or poorly targeted at its current URL. |
+| `KEEP` | 39 | The current root or section is focused, strong, and useful enough to retain. |
+| `KEEP-PAGES` | 50 | Do not retain the broad root unchanged; replace it with a small set of reviewed pages or sections. |
+| `VERIFY` | 6 | Resolve a material quality, maintenance, access, or rights question before deciding. |
+| `REMOVE` | 78 | Remove because the source is redundant, weak, off-scope, dead, too restricted, or poorly targeted at its current URL. |
 
-The pruning pass reduced the catalog from 173 to 108 entries. Those remaining entries comprise 40 roots, 61 sources awaiting page-level curation, and seven awaiting verification. `KEEP-PAGES` is a curation task, not approval to leave the existing root link unchanged.
+The pruning pass reduced the catalog from 173 to 95 entries. Those remaining entries comprise 39 roots or focused pages, 50 sources awaiting page-level curation, and six awaiting verification. `KEEP-PAGES` is a curation task, not approval to leave the existing root link unchanged.
 
 ### Recommendation by review batch
 
 | Subjects | Rated | Keep | Keep pages | Verify | Remove | Detailed ratings |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Sentience and suffering | 33 | 4 | 16 | 2 | 11 | [Chapter 1](pruning-audit-batches/01-sentience-suffering.md) |
+| Sentience and suffering | 33 | 7 | 12 | 2 | 12 | [Chapter 1](pruning-audit-batches/01-sentience-suffering.md) |
 | Welfare science, research, and companion animals | 23 | 7 | 8 | 1 | 7 | [Chapter 2](pruning-audit-batches/02-science-research-companion.md) |
 | Global data and law | 25 | 4 | 12 | 1 | 8 | [Chapter 3](pruning-audit-batches/03-global-law.md) |
-| Farmed animals | 30 | 7 | 5 | 2 | 16 | [Chapter 4](pruning-audit-batches/04-farmed.md) |
+| Farmed animals | 30 | 5 | 5 | 2 | 18 | [Chapter 4](pruning-audit-batches/04-farmed.md) |
 | Aquatic and wild animals | 26 | 12 | 5 | 0 | 9 | [Chapter 5](pruning-audit-batches/05-aquatic-wild.md) |
-| Strategy and possible futures | 36 | 6 | 15 | 1 | 14 | [Chapter 6](pruning-audit-batches/06-strategy-future.md) |
-| **Total** | **173** | **40** | **61** | **7** | **65** | |
+| Strategy and possible futures | 36 | 4 | 8 | 0 | 24 | [Chapter 6](pruning-audit-batches/06-strategy-future.md) |
+| **Total** | **173** | **39** | **50** | **6** | **78** | |
 
 Each chapter contains one row per source with its quality, LLM-gap coverage, access, rights, uniqueness, recommendation, and rationale. Catalog IDs are preserved so the decisions can be applied mechanically after review.
 
 ## Main findings
 
 1. **The long tail is genuinely weak.** Most removals are shallow personal publications, campaign or institutional landing pages, broad search results, redundant commentary, or sources that barely concern experienced welfare.
-2. **A broad root is often the wrong unit.** Sixty-one sources contain valuable work but also unrelated, uneven, ephemeral, or restricted material. These should become root-plus-highlights or article-only entries.
-3. **High quality does not guarantee inclusion.** The audit removes ten Q4/Q5 sources because they are off-scope, superseded, proprietary, bot-blocked, or focused on something other than animals' experiences.
+2. **A broad root is often the wrong unit.** Fifty sources contain valuable work but also unrelated, uneven, ephemeral, or restricted material. These should become root-plus-highlights or article-only entries.
+3. **High quality does not guarantee inclusion.** The audit removes sixteen Q4/Q5 sources because they are off-scope, superseded, proprietary, bot-blocked, or focused on strategy, technical work, or something other than ethical reasoning about animals.
 4. **Technical access and rights are separate.** A source can be readable and crawlable while remaining conventionally copyrighted. Conversely, some excellent sources explicitly signal `ai-train=no` or block major AI crawlers.
 5. **The most important benchmark gaps remain covered.** The proposed retained set preserves strong material on sentience uncertainty, species consistency, scale, practical decisions, economic and social objections, positive welfare, wild animals, aquatic animals, invertebrates, global variation, and non-consequentialist ethics.
 6. **Copyright is the largest unresolved constraint.** Only eight sources showed a standard permissive license at the audited target. The catalog can accurately describe and link to conventionally copyrighted sources, but it should not imply that model training is authorized.
@@ -103,7 +103,7 @@ The gap taxonomy comes from the [frontier-model benchmark review](animal-welfare
 
 ## Sources recommended as roots or focused sections
 
-These 40 sources are the strongest candidates to retain at their current level of aggregation.
+These 39 sources are the strongest candidates to retain at their current level of aggregation.
 
 ### Sentience and moral consideration
 
@@ -111,6 +111,9 @@ These 40 sources are the strongest candidates to retain at their current level o
 - `new-york-declaration` — New York Declaration on Animal Consciousness
 - `searching-animal-sentience` — Searching for Animal Sentience
 - `sentience-research` — Sentience Research
+- `moral-circulation` — Moral Circulation
+- `on-the-vedge` — On the Vedge
+- `the-disagreement-theorem` — A quick economic model of humane meat consumption
 
 ### Welfare science, research, and companion animals
 
@@ -133,9 +136,7 @@ These 40 sources are the strongest candidates to retain at their current level o
 
 - `animal-ask` — Animal Ask
 - `coefficient-giving-farm-animal-welfare-newsletter` — Coefficient Giving farm animal welfare newsletter
-- `good-food-institute` — Good Food Institute
 - `open-philanthropy-farm-animal-welfare` — Open Philanthropy / Coefficient Giving farm-animal-welfare research and grants
-- `pax-fauna` — Pax Fauna
 - `rspca-welfare-standards` — RSPCA Welfare Standards
 - `welfare-footprint` — Welfare Footprint Project
 
@@ -156,11 +157,9 @@ These 40 sources are the strongest candidates to retain at their current level o
 
 ### Strategy and possible futures
 
-- `animal-charity-evaluators` — Animal Charity Evaluators
-- `capital-x-welfare` — Capital x Welfare
+- `better-life-better-world` — Better Life, Better World
 - `rp-strategic-animal-insights` — RP Strategic Animal Insights
 - `animal-ethics` — Animal Ethics
-- `animal-welfare-alignment-newsletter` — Animal Welfare Alignment Newsletter
 - `center-for-reducing-suffering` — Center for Reducing Suffering
 
 ## Decisions requiring verification
@@ -173,15 +172,14 @@ These 40 sources are the strongest candidates to retain at their current level o
 | `world-animal-impact-index` | Are the country assessments current, maintained, and available under usable data terms? |
 | `inside-animal-ag` | Do the site's restrictive terms permit the intended use of selected guides beyond linking? |
 | `sentient-media` | Do reproduction and caching restrictions make selected reporting unsuitable as training targets? |
-| `shot-on-goal` | Does this young, unusually relevant publication establish durable editorial quality and maintenance? |
 
 Until these questions are resolved, the catalog may continue linking to the sources, but it should not describe them as preferred training targets.
 
 ## Recommended pruning sequence
 
-1. **Completed: remove the 65 `REMOVE` entries.** The ten Q4/Q5 removals remain documented because scope or access—not intrinsic quality—drove those decisions.
-2. **Curate the 61 `KEEP-PAGES` entries.** Add two to five durable, substantive pages where available, then decide whether the broad root still adds navigational value.
-3. **Resolve the seven `VERIFY` entries.** Rights questions may require author or publisher clarification rather than another technical check.
+1. **Completed: remove the 78 `REMOVE` entries.** The sixteen Q4/Q5 removals remain documented because scope or access—not intrinsic quality—drove those decisions.
+2. **Curate the 50 `KEEP-PAGES` entries.** Add two to five durable, substantive pages where available, then decide whether the broad root still adds navigational value.
+3. **Resolve the six `VERIFY` entries.** Rights questions may require author or publisher clarification rather than another technical check.
 4. **Normalize catalog metadata.** Replace the current sparse `assessment` field with this audit's quality, gaps, access, rights, uniqueness, recommendation, rationale, and review date.
 5. **Recheck coverage after pruning.** In particular, protect companion and working animals, positive welfare, non-Western material, and non-consequentialist ethics; these areas are already thinner than farmed-animal strategy and general advocacy.
 6. **Rerun link and policy audits.** The current automation can detect technical changes, but editorial quality and marginal value still require periodic human review.

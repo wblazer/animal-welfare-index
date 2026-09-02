@@ -4,6 +4,8 @@ Audited 2026-08-20. This review covered the 110 entries that remained after the 
 
 An index passes when it maps a real body of public material and links directly to it. A homepage fails when the useful material is absent, inaccessible, or only described.
 
+Thirteen entries that passed this linked-content test were later removed during manual quality review: duck dive, Animal Advocacy Careers, Animal Charity Evaluators, Animal Welfare Alignment Newsletter, CAFT, Capital x Welfare, DawnWatch, Good Food Institute, Pax Fauna, Sandcastles Blog, Special Interests, Shot on Goal, and We Animals. The Disagreement Theorem recommendation was applied by linking its standalone essay instead of the empty Substack.
+
 ## Results
 
 | Result | Count |
