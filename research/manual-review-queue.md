@@ -5,7 +5,7 @@ Batch 1 was reviewed on 2026-09-01 and the decisions below were applied to the c
 ## Preferences established
 
 - Favor first-order reasoning about animals over movement operations, careers, media monitoring, and field-building.
-- A single excellent article can be an entry. Do not preserve an empty or irrelevant root around it.
+- A standalone work can justify an entry when it is an authoritative paper, official dataset, or consensus statement. A lone post on an otherwise unrelated personal site generally cannot, even when the post itself is excellent.
 - Informal writing can be valuable when it develops a substantive argument; institutional prestige is not required.
 - Apply quality over quantity even to directly relevant animal-welfare writing. Short, inconclusive, or predominantly meta archives can be omitted.
 - Close alignment with the project’s AI motivation does not compensate for writing that is mainly about building or coordinating the field.
@@ -41,3 +41,19 @@ Batch 2 was reviewed on 2026-09-02 and the decisions below were applied to the c
 | [We Animals](https://weanimals.org/) | Remove | The resource is valuable documentation but too visual for this ethics-focused reading list. |
 | [Good Food Institute](https://gfi.org/) | Remove | Its strong technical work on alternative proteins does not focus on animal ethics. |
 | [Sandcastles Blog](https://sandcastlesblog.substack.com/) | Remove | The publication is predominantly about advocacy priorities and strategy. |
+
+## Catalog-wide pass
+
+The catalog was reviewed again on 2026-09-04, and the decisions were applied to the catalog and structured pruning audit.
+
+### Decisions and findings
+
+- Remove New Harvest: its site mainly contains organizational updates and cellular-agriculture field-building rather than animal-welfare reasoning.
+- Remove On the Vedge and *A quick economic model of humane meat consumption*. Both contain good work, but neither source has enough sustained material for this reading list.
+- Remove The Abolitionist Approach. Gary Francione's anti-welfarist program conflicts with the collection's focus on welfare and suffering and has been unusually divisive within animal advocacy.
+- Slightly Tofu does contain rigorous Chinese-language philosophical discussion. It was removed for fit, not language or quality: the publication identifies with abolitionism and includes an explicit anti-welfarism series.
+- The EA Forum animal-welfare topic was already in the catalog. It remains as a broad topic page with selected substantive posts highlighted.
+- Public Substack articles are generally available as HTML, and publications commonly expose RSS, archive, and sitemap routes. Root pages may still be subscription shells, publication settings can change, and technical access does not settle copyright or platform terms.
+- Open Philanthropy's farm-animal-welfare entry was renamed and retargeted to Coefficient Giving. Welfare Footprint Project was updated to Welfare Footprint Institute. The Coefficient Giving newsletter entry was renamed to its publication title, *Farm Animal Welfare newsletter*.
+
+The same standards removed 27 additional sources that were inaccessible, stale, predominantly organizational or strategic, too broad, too sparse, or better represented by focused primary material. All 32 decisions and their individual rationales are recorded in the [structured pruning audit](catalog-pruning-audit.md).

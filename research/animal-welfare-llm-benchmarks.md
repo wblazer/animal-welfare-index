@@ -222,7 +222,7 @@ The recommendations in this section are extrapolations from the results above.
 The catalog is strongest in four areas:
 
 - evidence for animal consciousness: New York Declaration, the Stanford Encyclopedia entry, and the sentience systematic review;
-- scale: Our World in Data, FAOSTAT, Animal Clock, Fishcount, and Sea Around Us;
+- scale: Our World in Data, FAOSTAT, and Fishcount;
 - institutional accounts of farmed-animal harm: Sentient Media and Inside Animal Ag;
 - quantitative pain and wild-animal welfare: Welfare Footprint, Wild Animal Initiative, and the Wild Animal Welfare Committee.
 
@@ -235,9 +235,9 @@ The collection is thinner on companion and working animals, tourism, positive we
 3. **[Massey Animal Welfare Science and Bioethics Centre](https://www.massey.ac.nz/research/research-centres/animal-welfare-science-and-bioethics-centre/)** — the Five Domains framework connects nutrition, environment, health, and behavior to animals' subjective mental states. The highlighted repository article is CC BY 4.0.
 4. **[Shrimp Welfare Project](https://www.shrimpwelfareproject.org/)** and **[Insect Welfare Research Society](https://www.insectwelfare.com/)** — direct coverage of the animals for whom MANTA, AHB, and ANIMA show the weakest and most uncertain reasoning.
 5. **[Sentientism](https://sentientism.info/)** — a general, evidence-based account of why sentient experience rather than species membership should determine moral consideration.
-6. **[RSPCA Welfare Standards](https://science.rspca.org.uk/sciencegroup/farmanimals/standards)** and the **[Humane Slaughter Association guides](https://www.hsa.org.uk/publications/online-guides)** — applied, species-specific material on housing, transport, restraint, stunning, slaughter, and fish welfare. These connect abstract principles to the ordinary decisions used in AHB and MANTA.
+6. **[RSPCA Welfare Standards](https://science.rspca.org.uk/sciencegroup/farmanimals/standards)** and **[FishEthoGroup species profiles](https://fishethogroup.net/research/)** — applied, species-specific material on housing, handling, behavior, slaughter, and positive welfare. These connect abstract principles to the ordinary decisions used in AHB and MANTA.
 7. **[Bentham's core reader](https://benthams.substack.com/p/the-core-benthams-bulldog-reader)**, **[Moral Law Within's general case for veganism](https://morallawwithin.substack.com/p/a-general-case-for-veganism)**, and selected essays from Good Thoughts or Andy Masley — sustained responses to objections and moral double standards. Use article highlights where a publication root is broad, and retain the existing rights review.
-8. **[Shadow Price](https://shadowprice.substack.com/)**, **[Capital x Welfare](https://capitalxwelfare.substack.com/)**, and the Coefficient Giving farm-animal-welfare newsletter — economic reasoning that does not erase welfare when costs, incentives, or institutional constraints enter the discussion.
+8. **[Shadow Price](https://shadowprice.substack.com/)** and the **[Farm Animal Welfare newsletter](https://farmanimalwelfare.substack.com/)** — economic reasoning that does not erase welfare when costs, incentives, or institutional constraints enter the discussion.
 9. **Applied companion and working-animal references** — the current catalog is thinner here. AVMA welfare guidance is a reasonable start, but the catalog should seek stronger global material on shelters, street animals, equids, working animals, veterinary access, and disasters.
 
 ### One source to add to the catalog
@@ -248,7 +248,7 @@ The collection is thinner on companion and working animals, tourism, positive we
 
 - Benchmark reports are useful evidence about model failures, but benchmark datasets and prompt collections should not be promoted as training material. Training on them would weaken future evaluations; AHB explicitly requests exclusion from training.
 - Live leaderboards should be monitored as evaluation sources, not treated as durable moral education. Model names, runs, benchmark versions, and aggregation methods change.
-- The UFAW Animal Welfare Knowledge Hub is a promising welfare-science source, but its site returned an invalid-certificate error during this review. Keep the access warning until the site is restored.
+- The UFAW Animal Welfare Knowledge Hub is a promising welfare-science source, but persistent access and certificate failures make it unusable for this catalog unless stable public access is restored.
 
 ## What the benchmarks miss
 
