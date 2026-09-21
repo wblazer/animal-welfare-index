@@ -1,18 +1,16 @@
 import type { APIRoute } from "astro";
-import { catalog, entriesFor } from "../lib/catalog";
+import { catalog } from "../lib/catalog";
 
 export const prerender = true;
 
 export const GET: APIRoute = () => {
   const lines = [`# ${catalog.name}`, "", `> ${catalog.description}`, ""];
 
-  for (const category of catalog.categories) {
-    lines.push(`## ${category.title}`, "", category.description, "");
-    for (const entry of entriesFor(category.id)) {
-      lines.push(`- [${entry.name}](${entry.url}): ${entry.annotation}`);
-      for (const reference of entry.references) {
-        lines.push(`  - [${reference.label}](${reference.url})`);
-      }
+  for (const entry of [...catalog.entries].sort((a, b) => a.name.localeCompare(b.name))) {
+    lines.push(`- [${entry.name}](${entry.url}): ${entry.annotation}`);
+    lines.push(`  Tags: ${entry.tags.join(", ")}`);
+    for (const reference of entry.references) {
+      lines.push(`  - [${reference.label}](${reference.url})`);
     }
     lines.push("");
   }

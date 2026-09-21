@@ -1,7 +1,10 @@
 ---
-import { catalog, entriesFor } from "../lib/catalog";
+import { catalog } from "../lib/catalog";
 import "../styles/global.css";
 
+const entries = [...catalog.entries].sort((a, b) => a.name.localeCompare(b.name));
+const tags = [...new Set(entries.flatMap(entry => entry.tags))].sort();
+const licenseLabels = { open: "Reuse permission found", mixed: "Mixed / item-level", restricted: "Explicit restrictions", unknown: "Not verified" };
 const base = import.meta.env.BASE_URL.endsWith("/")
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;
@@ -24,7 +27,7 @@ const jsonLd = {
         url: entry.url,
         description: entry.annotation,
         genre: entry.evidence_type,
-        keywords: entry.topics,
+        keywords: entry.tags,
         citation: entry.references.map((reference) => reference.url),
       },
     })),
@@ -52,40 +55,111 @@ const jsonLd = {
         <p>{catalog.introduction}</p>
       </header>
 
-      {
-        catalog.categories.map((category) => (
-          <section class="category" id={category.id}>
-            <h2>{category.title}</h2>
-            <p class="category-description">{category.description}</p>
-            <ul class="reading-list">
-              {entriesFor(category.id).map((entry) => (
-                <li>
-                  <h3>
-                    <a href={entry.url}>{entry.name}</a>
-                    <span class="source-domain">{entry.domain}</span>
-                  </h3>
+      <form id="filters" hidden role="search">
+        <label class="search">Search<input id="query" type="search" placeholder="Source, tag, or article…" /></label>
+        {[
+          { id: "tags", label: "Tags", all: "All tags", options: tags.map(t => ({ value: t, label: t })) },
+          { id: "license", label: "License", all: "All licenses", options: Object.entries(licenseLabels).map(([value, label]) => ({ value, label })) },
+        ].map(filter => (
+          <div class="filter-group">
+            <span class="filter-label" id={`${filter.id}-label`}>{filter.label}</span>
+            <details class="multi-filter" id={filter.id}>
+              <summary aria-labelledby={`${filter.id}-label ${filter.id}-value`}><span id={`${filter.id}-value`} data-all={filter.all}>{filter.all}</span><svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" /></svg></summary>
+              <fieldset class="filter-options">
+                <legend class="sr-only">{filter.label}: select any</legend>
+                <button type="button" data-clear={filter.id}>Clear selection</button>
+                {filter.options.map(option => <label><input type="checkbox" name={filter.id} value={option.value} /><span>{option.label}</span></label>)}
+              </fieldset>
+            </details>
+          </div>
+        ))}
+      </form>
+      <div class="table-tools">
+        <span id="result-count" role="status" aria-live="polite">{entries.length} sources</span>
+        <button id="clear" hidden type="button">Clear filters</button>
+        <a id="export" href={`${base}catalog.json`} download="animal-welfare-index.json">Export JSON</a>
+      </div>
+      <p class="scroll-hint">Scroll the table sideways to see tags and licenses →</p>
+      <div class="table-wrap" role="region" aria-label="Source index, scroll horizontally on small screens" tabindex="0">
+        <table>
+          <caption class="sr-only">Animal welfare sources, tags, and reuse licenses</caption>
+          <thead><tr><th scope="col">Source &amp; reading</th><th scope="col">Tags</th><th scope="col">License</th></tr></thead>
+          <tbody>
+            {entries.map(entry => (
+              <tr data-id={entry.id}>
+                <td>
+                  <a class="source-name" href={entry.url}>{entry.name}</a>
+                  <div class="source-meta">{entry.domain} · {entry.evidence_type}</div>
                   <p class="annotation">{entry.annotation}</p>
-                  {
-                    entry.references.length > 0 && (
-                      <ul class="highlights" aria-label={`Selected pages from ${entry.name}`}>
-                        {entry.references.map((reference) => (
-                          <li><a href={reference.url}>{reference.label}</a></li>
-                        ))}
-                      </ul>
-                    )
-                  }
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))
-      }
+                  {entry.references.length > 0 && <ul class="highlights" aria-label={`Selected pages from ${entry.name}`}>
+                    {entry.references.map(ref => <li><a href={ref.url}>{ref.label}</a></li>)}
+                  </ul>}
+                </td>
+                <td><ul class="tags">{entry.tags.map(t => <li>{t}</li>)}</ul></td>
+                <td><span class={`license-status ${entry.license.status}`}>{licenseLabels[entry.license.status]}</span>
+                  <details><summary>{entry.license.label}</summary><p>{entry.license.scope}</p>{entry.license.evidence_url && <a href={entry.license.evidence_url}>License evidence</a>}</details>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p id="empty" hidden>No sources match these filters. Try a broader search or clear the filters.</p>
+      <p class="license-note">License labels apply to the scope described, not necessarily every linked work. Public access is not reuse permission.</p>
     </main>
 
     <footer class="site-footer">
       <div>
-        Text <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · metadata <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+        Index text <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · metadata <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> · <a href={`${base}catalog.json`}>Full JSON</a>
       </div>
     </footer>
   </body>
 </html>
+
+<script>
+  import { catalog } from "../lib/catalog";
+  const form = document.querySelector<HTMLFormElement>("#filters")!;
+  const query = document.querySelector<HTMLInputElement>("#query")!;
+  const menus = [...form.querySelectorAll<HTMLDetailsElement>(".multi-filter")];
+  const clear = document.querySelector<HTMLButtonElement>("#clear")!;
+  const exportLink = document.querySelector<HTMLAnchorElement>("#export")!;
+  const rows = [...document.querySelectorAll<HTMLTableRowElement>("tbody tr")];
+  let selected = catalog.entries;
+  let downloadUrl: string | undefined;
+  form.hidden = false;
+  function update() {
+    const values = (name: string) => [...form.querySelectorAll<HTMLInputElement>(`input[name="${name}"]:checked`)].map(input => input.value);
+    const tags = values("tags"), license = values("license");
+    menus.forEach(menu => {
+      const checked = [...menu.querySelectorAll<HTMLInputElement>("input:checked")];
+      const label = menu.querySelector<HTMLElement>("summary span")!;
+      label.textContent = checked.length === 0 ? label.dataset.all! : checked.length === 1 ? checked[0].nextElementSibling!.textContent : `${checked.length} selected`;
+    });
+    const words = query.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    selected = catalog.entries.filter(entry => {
+      const text = [entry.name, entry.domain, entry.annotation, entry.evidence_type, ...entry.tags, ...entry.references.map(r => r.label)].join(" ").toLowerCase();
+      return words.every(word => text.includes(word)) && (!tags.length || tags.some(t => entry.tags.includes(t))) && (!license.length || license.includes(entry.license.status));
+    });
+    const ids = new Set(selected.map(e => e.id));
+    rows.forEach(row => row.hidden = !ids.has(row.dataset.id!));
+    document.querySelector("#result-count")!.textContent = `${selected.length} of ${catalog.entries.length} sources`;
+    document.querySelector<HTMLElement>("#empty")!.hidden = selected.length > 0;
+    clear.hidden = !query.value && !tags.length && !license.length;
+    if (downloadUrl) URL.revokeObjectURL(downloadUrl);
+    const body = { ...catalog, entries: selected, selection: { query: query.value, tags, license }, license: { editorial: "https://creativecommons.org/licenses/by/4.0/", metadata: "https://creativecommons.org/publicdomain/zero/1.0/", note: "These licenses cover this catalog's original work, not content on linked websites." } };
+    downloadUrl = URL.createObjectURL(new Blob([JSON.stringify(body, null, 2) + "\n"], {type: "application/json"}));
+    exportLink.href = downloadUrl;
+    exportLink.textContent = `Export JSON (${selected.length})`;
+  }
+  form.addEventListener("submit", event => event.preventDefault());
+  form.addEventListener("input", update);
+  form.addEventListener("change", update);
+  menus.forEach(menu => {
+    menu.addEventListener("toggle", () => { if (menu.open) menus.filter(other => other !== menu).forEach(other => other.open = false); });
+    menu.addEventListener("keydown", event => { if (event.key === "Escape") { menu.open = false; menu.querySelector("summary")!.focus(); } });
+    menu.querySelector("button")!.addEventListener("click", () => { menu.querySelectorAll<HTMLInputElement>("input").forEach(input => input.checked = false); update(); });
+  });
+  document.addEventListener("click", event => { menus.forEach(menu => { if (!menu.contains(event.target as Node)) menu.open = false; }); });
+  clear.addEventListener("click", () => { form.reset(); menus.forEach(menu => menu.open = false); update(); query.focus(); });
+  update();
+</script>

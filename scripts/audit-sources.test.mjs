@@ -35,6 +35,7 @@ test("catalog validation checks nested links", () => {
         evidence_type: "Research",
         access: "HTML",
         reuse: "Copyright applies",
+        license: { status: "unknown", label: "Not verified", scope: "Website", evidence_url: null },
         references: [{ label: "Bad", url: "http://example.com/bad" }],
         assessment: { value: "unrated" },
       },
@@ -42,6 +43,16 @@ test("catalog validation checks nested links", () => {
   };
 
   assert.deepEqual(catalogErrors(catalog), ["entries[0].references[0].url must use HTTPS"]);
+  catalog.entries[0].references = [];
+  catalog.entries[0].license.status = "open";
+  assert.deepEqual(catalogErrors(catalog), ["entries[0].license requires evidence for an affirmative classification"]);
+  catalog.entries[0].license.evidence_url = "https://example.com/license";
+  assert.deepEqual(catalogErrors(catalog), []);
+  catalog.entries[0].license.status = "public";
+  assert.deepEqual(catalogErrors(catalog), ["entries[0].license.status must be open, mixed, restricted, or unknown"]);
+  delete catalog.entries[0].license;
+  assert.deepEqual(catalogErrors(catalog), ["entries[0].license must be an object"]);
+  assert.deepEqual(catalogErrors(catalog, { allowLegacyLicense: true }), []);
 });
 
 test("link results distinguish restrictions from missing pages", () => {

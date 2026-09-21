@@ -1,8 +1,8 @@
 {
-  "name": "Animal Welfare Reading List",
+  "name": "Animal Welfare Reading Index",
   "description": "An annotated library of writing, research, and data on the welfare of sentient animals.",
   "introduction": "Writing, research, and data on what animals experience, how many are affected, and what could change.",
-  "updated": "2026-09-04",
+  "updated": "2026-09-21",
   "categories": [
     {
       "id": "sentience",
@@ -77,6 +77,12 @@
       "evidence_type": "philosophy essays",
       "access": "Full public HTML observed 2026-08-20",
       "reuse": "author and publisher copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "The Animal Crisis Is a Human Crisis",
@@ -105,6 +111,12 @@
       "evidence_type": "Substack on custom domain",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "An intro to animal ethics",
@@ -137,6 +149,12 @@
       "evidence_type": "Academic reference work",
       "access": "Static HTML and bibliography",
       "reuse": "Free to read; Stanford Encyclopedia of Philosophy copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Evidence concerning animal consciousness",
@@ -167,6 +185,12 @@
       "evidence_type": "open-access journal",
       "access": "Public web pages; access should be checked before reuse.",
       "reuse": "Public HTML/PDF, but articles retain author copyright and the journal states that reuse beyond statutory exceptions needs prior permission; not Creative Commons.",
+      "license": {
+        "status": "restricted",
+        "label": "Permission required beyond stated exceptions",
+        "evidence_url": "https://www.uowoajournals.org/asj/",
+        "scope": "Journal articles; the journal states that reuse beyond statutory exceptions requires prior permission."
+      },
       "references": [],
       "link_pattern": "focused journal root",
       "assessment": {
@@ -189,6 +213,12 @@
       "evidence_type": "open-access journal",
       "access": "Public web pages; access should be checked before reuse.",
       "reuse": "Public HTML/PDF, but no Creative Commons license; reuse outside narrow personal-use exceptions requires written agreement.",
+      "license": {
+        "status": "restricted",
+        "label": "Written agreement required for reuse",
+        "evidence_url": "https://digitalcommons.calpoly.edu/bts/",
+        "scope": "Journal articles outside stated personal-use exceptions."
+      },
       "references": [],
       "link_pattern": "focused journal root",
       "assessment": {
@@ -212,6 +242,12 @@
       "evidence_type": "Substack",
       "access": "Public HTML, RSS, archive, and sitemap; no GPTBot or Google-Extended block found 2026-08-19",
       "reuse": "author copyright and Substack terms still apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "When veterinarians fail animals",
@@ -247,6 +283,12 @@
       "evidence_type": "Substack on custom domain",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "root plus highlights",
       "assessment": {
@@ -270,6 +312,12 @@
       "evidence_type": "scholar website",
       "access": "Public HTML observed 2026-08-20",
       "reuse": "author and publisher copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "publications index",
       "assessment": {
@@ -292,6 +340,12 @@
       "evidence_type": "Substack",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Distance from suffering in animal ethics",
@@ -319,6 +373,12 @@
       "evidence_type": "Substack",
       "access": "Public HTML, RSS, archive, and sitemap; no GPTBot or Google-Extended block found 2026-08-19",
       "reuse": "author copyright and Substack terms still apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "A general case for veganism",
@@ -354,6 +414,12 @@
       "evidence_type": "Scientific declaration and background review",
       "access": "Public HTML",
       "reuse": "Publicly readable; no general reuse license is stated.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Declaration",
@@ -384,6 +450,12 @@
       "evidence_type": "independent academic center",
       "access": "Public HTML",
       "reuse": "many publications are links or books with separate copyright.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "The Ethics of Rewilding",
@@ -415,6 +487,12 @@
       "evidence_type": "open-access journal",
       "access": "Public web pages; access should be checked before reuse.",
       "reuse": "Public HTML/PDF under CC BY-NC-ND 4.0. Noncommercial use is allowed with attribution, but derivatives are prohibited, making training use legally unclear or unsuitable.",
+      "license": {
+        "status": "restricted",
+        "label": "CC BY-NC-ND 4.0",
+        "evidence_url": "https://www.ledonline.it/index.php/Relations/",
+        "scope": "Journal articles: attribution and noncommercial use are allowed, but derivatives are prohibited."
+      },
       "references": [],
       "link_pattern": "focused journal root",
       "assessment": {
@@ -438,6 +516,12 @@
       "evidence_type": "Systematic review",
       "access": "Full-text HTML, PDF, and article metadata",
       "reuse": "Open-access article; article-level license applies.",
+      "license": {
+        "status": "open",
+        "label": "CC BY 3.0",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4494450/",
+        "scope": "The linked article."
+      },
       "references": [
         {
           "label": "PubMed record",
@@ -464,6 +548,12 @@
       "evidence_type": "Research reports and historical case studies",
       "access": "Public HTML reports and downloadable data",
       "reuse": "Check the terms attached to individual reports and datasets.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Animal Farming Attitudes Survey 2017",
@@ -489,6 +579,12 @@
       "evidence_type": "Substack",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "The short, commonsense case for improving farm animal welfare",
@@ -525,6 +621,12 @@
       "evidence_type": "academic journal",
       "access": "Gold open access since 2023",
       "reuse": "current articles inspected use CC BY 4.0. Older volumes predate the transition, so retain article-level license checks.",
+      "license": {
+        "status": "mixed",
+        "label": "CC BY 4.0 for current articles; older rights vary",
+        "evidence_url": "https://www.cambridge.org/core/journals/animal-welfare",
+        "scope": "Current articles inspected since the 2023 open-access transition; older volumes require article-level checks."
+      },
       "references": [],
       "link_pattern": "journal root plus open articles",
       "assessment": {
@@ -547,6 +649,12 @@
       "evidence_type": "open-access journal section",
       "access": "Public HTML/PDF; confirm per article.",
       "reuse": "Frontiers articles generally display CC BY terms",
+      "license": {
+        "status": "open",
+        "label": "CC BY",
+        "evidence_url": "https://www.frontiersin.org/journals/veterinary-science/sections/animal-behavior-and-welfare",
+        "scope": "Articles published in the linked Frontiers section; verify the notice on each article."
+      },
       "references": [],
       "link_pattern": "section root",
       "assessment": {
@@ -569,6 +677,12 @@
       "evidence_type": "academic research centre",
       "access": "Public institutional HTML and repository article observed 2026-08-20",
       "reuse": "the highlighted article is CC BY 4.0.",
+      "license": {
+        "status": "mixed",
+        "label": "Item-level licenses vary; highlighted article is CC BY 4.0",
+        "evidence_url": "https://mro.massey.ac.nz/items/971a640e-1752-495f-b821-7e2e44704b17",
+        "scope": "The highlighted repository article only; the centre website and other linked works may have different terms."
+      },
       "references": [
         {
           "label": "971a640e 1752 495f b821 7e2e44704b17",
@@ -597,6 +711,12 @@
       "evidence_type": "Topic synthesis, articles, charts, and datasets",
       "access": "Public HTML, downloadable CSV and JSON, chart API",
       "reuse": "OWID writing, charts, and OWID-produced data are generally CC BY 4.0; third-party data retain their source terms.",
+      "license": {
+        "status": "mixed",
+        "label": "CC BY 4.0 with third-party exceptions",
+        "evidence_url": "https://ourworldindata.org/how-to-use-our-world-in-data",
+        "scope": "OWID-authored writing and charts and OWID-produced data; third-party data retain source-specific terms."
+      },
       "references": [
         {
           "label": "How many animals are slaughtered every day?",
@@ -628,6 +748,12 @@
       "evidence_type": "Official international statistics",
       "access": "Interactive databases, bulk downloads, and APIs",
       "reuse": "FAO database terms and source-specific conditions apply.",
+      "license": {
+        "status": "mixed",
+        "label": "Source-specific FAO terms",
+        "evidence_url": "https://www.fao.org/contact-us/terms/en/",
+        "scope": "FAO materials and databases subject to the general terms and any dataset- or publication-specific notices."
+      },
       "references": [
         {
           "label": "Fisheries and aquaculture statistics",
@@ -654,6 +780,12 @@
       "evidence_type": "Research library and original studies",
       "access": "Public searchable HTML",
       "reuse": "Publicly readable; check item-level terms before reuse.",
+      "license": {
+        "status": "mixed",
+        "label": "Item-level rights vary",
+        "evidence_url": "https://faunalytics.org/",
+        "scope": "The library combines Faunalytics material and summaries or links to third-party research; check each item."
+      },
       "references": [
         {
           "label": "Fundamentals",
@@ -685,6 +817,12 @@
       "evidence_type": "Substack",
       "access": "Public HTML, RSS, archive, and sitemap; no GPTBot or Google-Extended block found 2026-08-19",
       "reuse": "author copyright and Substack terms still apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "The protein problem",
@@ -713,6 +851,12 @@
       "evidence_type": "Research-based reference guide",
       "access": "Public HTML; robots.txt permits crawling with a delay.",
       "reuse": "All rights reserved.",
+      "license": {
+        "status": "restricted",
+        "label": "All rights reserved",
+        "evidence_url": "https://insideanimalag.org/",
+        "scope": "Website content under the documented site notice."
+      },
       "references": [
         {
           "label": "Content guide",
@@ -738,6 +882,12 @@
       "evidence_type": "Substack",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "root plus highlights",
       "assessment": {
@@ -761,6 +911,12 @@
       "evidence_type": "philanthropic research site",
       "access": "Public section HTML with research, case studies, and a filterable grants list",
       "reuse": "rights need review.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "A case study on corporate campaigns for farm animal welfare",
@@ -790,6 +946,12 @@
       "evidence_type": "nonprofit standards",
       "access": "Public HTML and PDFs observed 2026-08-20",
       "reuse": "RSPCA copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "section root",
       "assessment": {
@@ -814,6 +976,12 @@
       "evidence_type": "Independent journalism and explainers",
       "access": "Public HTML without an account or paywall; ordinary article crawling is allowed by robots.txt.",
       "reuse": "All rights reserved; reproduction, distribution, transmission, and caching require prior written permission.",
+      "license": {
+        "status": "restricted",
+        "label": "All rights reserved; prior written permission required",
+        "evidence_url": "https://sentientmedia.org/terms-of-use/",
+        "scope": "Site content; the terms explicitly restrict reproduction, distribution, transmission, and caching."
+      },
       "references": [],
       "policy_urls": [
         {
@@ -841,6 +1009,12 @@
       "evidence_type": "Quantitative welfare framework and applied research",
       "access": "Public HTML papers and reports",
       "reuse": "The institute states that its data, reports, and charts are available under CC BY.",
+      "license": {
+        "status": "open",
+        "label": "Creative Commons Attribution (CC BY)",
+        "evidence_url": "https://welfarefootprint.org/",
+        "scope": "Data, reports, and charts produced by the Welfare Footprint Project."
+      },
       "references": [
         {
           "label": "Analytical approach",
@@ -872,6 +1046,12 @@
       "evidence_type": "research/advocacy nonprofit",
       "access": "Public HTML and browsable subject filters",
       "reuse": "detailed license and AI-signal review still needed.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Shrimp welfare",
@@ -900,6 +1080,12 @@
       "evidence_type": "nonprofit",
       "access": "Public HTML",
       "reuse": "detailed robots and license review still needed.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Aquaculture resource library",
@@ -936,6 +1122,12 @@
       "evidence_type": "nonprofit",
       "access": "Public HTML and downloadable resources observed 2026-08-20",
       "reuse": "site and item-level copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Sea to Plate welfare report",
@@ -968,6 +1160,12 @@
       "evidence_type": "nonprofit",
       "access": "Public HTML and sitemap",
       "reuse": "no AI-specific block found. The site says all images and information are freely available for anyone's use, a strong positive signal but not a standard-form license.",
+      "license": {
+        "status": "open",
+        "label": "Site reuse permission",
+        "evidence_url": "https://www.fishwelfareinitiative.org/",
+        "scope": "Images and information on the Fish Welfare Initiative website; this is a plain-language permission, not a standard-form license."
+      },
       "references": [
         {
           "label": "Blog",
@@ -1001,6 +1199,12 @@
       "evidence_type": "Modeled estimates and welfare research",
       "access": "Public HTML reports, tables, and downloadable documents",
       "reuse": "Check the terms attached to individual estimates and publications.",
+      "license": {
+        "status": "mixed",
+        "label": "Item-level rights vary",
+        "evidence_url": "https://fishcount.org.uk/",
+        "scope": "Estimates, tables, and publications may carry different terms; check each item."
+      },
       "references": [
         {
           "label": "Wild-caught fish estimates",
@@ -1031,6 +1235,12 @@
       "evidence_type": "research group",
       "access": "Public HTML and documents observed 2026-08-20",
       "reuse": "item-level rights apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Papers",
@@ -1058,6 +1268,12 @@
       "evidence_type": "research society",
       "access": "Public HTML; no AI-specific block or sitewide CC notice found 2026-08-19.",
       "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Research guidelines",
@@ -1091,6 +1307,12 @@
       "evidence_type": "research nonprofit",
       "access": "Public HTML and sitemap; no AI-specific block or sitewide CC notice found 2026-08-19.",
       "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Insects raised for food and feed",
@@ -1123,6 +1345,12 @@
       "evidence_type": "research report",
       "access": "Public institutional page observed 2026-08-20 but automated requests may be restricted",
       "reuse": "SEI copyright and item-level terms apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "article",
       "assessment": {
@@ -1146,6 +1374,12 @@
       "evidence_type": "nonprofit",
       "access": "Public HTML and sitemap; no AI-specific block or sitewide CC notice found 2026-08-19.",
       "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Shrimp welfare report",
@@ -1182,6 +1416,12 @@
       "evidence_type": "open-access review",
       "access": "Public full-text HTML and PDF observed 2026-08-20",
       "reuse": "CC BY 4.0 article license.",
+      "license": {
+        "status": "open",
+        "label": "CC BY 4.0",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12089788/",
+        "scope": "The linked article."
+      },
       "references": [],
       "link_pattern": "article",
       "assessment": {
@@ -1207,6 +1447,12 @@
       "evidence_type": "Substack",
       "access": "Public HTML, RSS, archive, and sitemap; no GPTBot or Google-Extended block found 2026-08-19",
       "reuse": "author copyright and Substack terms still apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "The core benthams bulldog reader",
@@ -1247,6 +1493,12 @@
       "evidence_type": "Research program, reviews, and field methods",
       "access": "Public HTML research library and papers",
       "reuse": "Check the terms attached to individual publications.",
+      "license": {
+        "status": "mixed",
+        "label": "Item-level rights vary",
+        "evidence_url": "https://www.wildanimalinitiative.org/research",
+        "scope": "Research-library publications and linked papers; check each publication."
+      },
       "references": [
         {
           "label": "Research library",
@@ -1273,6 +1525,12 @@
       "evidence_type": "Independent expert analysis and policy advice",
       "access": "Public HTML reports and publications",
       "reuse": "Check the terms attached to individual publications.",
+      "license": {
+        "status": "mixed",
+        "label": "Item-level rights vary",
+        "evidence_url": "https://www.wawcommittee.org/resources",
+        "scope": "Committee resources and linked publications; check each item."
+      },
       "references": [
         {
           "label": "Ethical principles for wildlife management",
@@ -1299,6 +1557,12 @@
       "evidence_type": "professional association",
       "access": "Public HTML and policy documents observed 2026-08-20",
       "reuse": "AVMA copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "section root",
       "assessment": {
@@ -1321,6 +1585,12 @@
       "evidence_type": "standards body",
       "access": "Public HTML and PDFs observed 2026-08-20",
       "reuse": "CCAC copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "General guidelines",
@@ -1353,6 +1623,12 @@
       "evidence_type": "Official regional statistics and project records",
       "access": "Public dashboards and full dataset exports",
       "reuse": "European Commission reuse rules and dataset-specific notices apply.",
+      "license": {
+        "status": "mixed",
+        "label": "European Commission reuse rules; dataset notices vary",
+        "evidence_url": "https://commission.europa.eu/legal-notice_en",
+        "scope": "Commission-authored material subject to the legal notice; ALURES datasets may include separate notices or third-party rights."
+      },
       "references": [
         {
           "label": "ALURES dataset export",
@@ -1379,6 +1655,12 @@
       "evidence_type": "government laboratory",
       "access": "Public European Commission HTML and reports observed 2026-08-20",
       "reuse": "EU reuse rules and item-level notices apply.",
+      "license": {
+        "status": "mixed",
+        "label": "European Commission reuse rules; item notices vary",
+        "evidence_url": "https://commission.europa.eu/legal-notice_en",
+        "scope": "Commission-authored pages and reports, subject to item-level notices and third-party rights."
+      },
       "references": [
         {
           "label": "2025 status report",
@@ -1407,6 +1689,12 @@
       "evidence_type": "research nonprofit",
       "access": "Public HTML and resources observed 2026-08-20",
       "reuse": "item-level rights apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "resource library",
       "assessment": {
@@ -1430,6 +1718,12 @@
       "evidence_type": "research guidelines",
       "access": "Public HTML and documents observed 2026-08-20",
       "reuse": "Norecopa copyright and item-level terms apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "focused root",
       "assessment": {
@@ -1453,6 +1747,12 @@
       "evidence_type": "research methods guide",
       "access": "Public HTML observed 2026-08-20",
       "reuse": "NC3Rs copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "section root",
       "assessment": {
@@ -1475,6 +1775,12 @@
       "evidence_type": "academic journal",
       "access": "Public metadata and mixed full text observed 2026-08-20",
       "reuse": "article and publisher rights vary.",
+      "license": {
+        "status": "mixed",
+        "label": "Article and publisher rights vary",
+        "evidence_url": "https://law.lclark.edu/law_reviews/animal_law_review/",
+        "scope": "Journal metadata and articles across volumes; verify each article."
+      },
       "references": [],
       "link_pattern": "section root",
       "assessment": {
@@ -1498,6 +1804,12 @@
       "evidence_type": "university legal database",
       "access": "Public HTML and database navigation",
       "reuse": "Michigan State copyright/terms require review.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "focused root",
       "assessment": {
@@ -1521,6 +1833,12 @@
       "evidence_type": "legal research nonprofit",
       "access": "Public HTML and legal indexes observed 2026-08-20",
       "reuse": "database and site terms apply.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "National legislation database",
@@ -1553,6 +1871,12 @@
       "evidence_type": "university program",
       "access": "Public HTML",
       "reuse": "copyright varies across university pages and linked scholarship.",
+      "license": {
+        "status": "mixed",
+        "label": "University and publication rights vary",
+        "evidence_url": "https://animal.law.harvard.edu/publications/",
+        "scope": "Program pages, reports, and linked scholarship may have different rights; verify each item."
+      },
       "references": [
         {
           "label": "Proposition 12 report",
@@ -1580,6 +1904,12 @@
       "evidence_type": "legal nonprofit",
       "access": "Public HTML and case documents observed 2026-08-20",
       "reuse": "site copyright applies and public legal documents may have separate status.",
+      "license": {
+        "status": "mixed",
+        "label": "Site and public-document rights vary",
+        "evidence_url": "https://www.nonhumanrights.org/litigation/",
+        "scope": "Site commentary and litigation documents may have different copyright or public-record status; verify each item."
+      },
       "references": [
         {
           "label": "Tommy's case",
@@ -1607,6 +1937,12 @@
       "evidence_type": "Substack",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [],
       "link_pattern": "focused root",
       "assessment": {
@@ -1630,6 +1966,12 @@
       "evidence_type": "Substack",
       "access": "Public Substack publication",
       "reuse": "per-publication robots, paywall, and license need checking.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Are You Actually Helping Animals?",
@@ -1659,6 +2001,12 @@
       "evidence_type": "community forum topic",
       "access": "Public HTML and topic navigation",
       "reuse": "mixed authorship, per-post rights, and platform terms require careful review.",
+      "license": {
+        "status": "mixed",
+        "label": "Author and post-level rights vary",
+        "evidence_url": "https://forum.effectivealtruism.org/topics/animal-welfare",
+        "scope": "Community-authored posts and linked materials; verify each post and asset."
+      },
       "references": [
         {
           "label": "Animal welfare has an evidence problem",
@@ -1699,6 +2047,12 @@
       "evidence_type": "independent nonprofit/community site",
       "access": "Public HTML and sitemap; no AI-specific block found in initial survey",
       "reuse": "license needs page-level verification.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Articles",
@@ -1730,6 +2084,12 @@
       "evidence_type": "independent nonprofit site",
       "access": "Public HTML, robots, sitemap, and open navigation; no AI-specific block or sitewide CC notice found 2026-08-19.",
       "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Wild animal suffering section",
@@ -1766,6 +2126,12 @@
       "evidence_type": "research nonprofit",
       "access": "Public HTML; no AI-specific block or sitewide CC notice found 2026-08-19.",
       "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Blog",
@@ -1798,6 +2164,12 @@
       "evidence_type": "scholar website",
       "access": "Public HTML observed 2026-08-20",
       "reuse": "author and publisher copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "Wild Animal Welfare in Local Policies",
@@ -1834,6 +2206,12 @@
       "evidence_type": "Philosophical and technological essays",
       "access": "Static public HTML",
       "reuse": "Author copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
       "references": [
         {
           "label": "The Abolitionist Project",

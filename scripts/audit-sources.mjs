@@ -46,7 +46,7 @@ function validateUrl(value, location, errors) {
   }
 }
 
-export function catalogErrors(catalog) {
+export function catalogErrors(catalog, { allowLegacyLicense = false } = {}) {
   const errors = [];
   if (!isRecord(catalog)) return ["Catalog must be an object"];
 
@@ -115,6 +115,20 @@ export function catalogErrors(catalog) {
     } else if (entry.topics.some((topic) => !isNonemptyString(topic))) {
       errors.push(`${location}.topics must contain only nonempty strings`);
     }
+    if (allowLegacyLicense && entry.license === undefined) {
+      // Historical catalogs predate structured license metadata.
+    } else if (!isRecord(entry.license)) {
+      errors.push(`${location}.license must be an object`);
+    } else {
+      if (!["open", "mixed", "restricted", "unknown"].includes(entry.license.status)) {
+        errors.push(`${location}.license.status must be open, mixed, restricted, or unknown`);
+      }
+      for (const field of ["label", "scope"]) {
+        if (!isNonemptyString(entry.license[field])) errors.push(`${location}.license.${field} must be a nonempty string`);
+      }
+      if (entry.license.evidence_url !== null) validateUrl(entry.license.evidence_url, `${location}.license.evidence_url`, errors);
+      if (entry.license.status !== "unknown" && !entry.license.evidence_url) errors.push(`${location}.license requires evidence for an affirmative classification`);
+    }
     if (!isRecord(entry.assessment)) {
       errors.push(`${location}.assessment must be an object`);
     } else {
@@ -164,8 +178,8 @@ export function catalogErrors(catalog) {
   return errors;
 }
 
-function assertValidCatalog(catalog) {
-  const errors = catalogErrors(catalog);
+function assertValidCatalog(catalog, options) {
+  const errors = catalogErrors(catalog, options);
   if (errors.length > 0) throw new Error(`Catalog validation failed:\n- ${errors.join("\n- ")}`);
 }
 
@@ -712,7 +726,7 @@ async function auditLinks(catalog, options) {
   const previousCatalog = options.previousCatalog
     ? await readCatalog(path.resolve(options.previousCatalog))
     : null;
-  if (previousCatalog) assertValidCatalog(previousCatalog);
+  if (previousCatalog) assertValidCatalog(previousCatalog, { allowLegacyLicense: true });
   const links = collectLinks(catalog, previousCatalog);
   const results = await runPool(links, async (link) => {
     const response = await fetchResource(link.url);
