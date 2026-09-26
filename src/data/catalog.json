@@ -2,7 +2,7 @@
   "name": "Animal Welfare Index",
   "description": "An annotated library of writing, research, and data on the welfare of sentient animals.",
   "introduction": "Writing, research, and data on what animals experience, how many are affected, and what could change.",
-  "updated": "2026-09-21",
+  "updated": "2026-09-26",
   "categories": [
     {
       "id": "sentience",
@@ -1761,34 +1761,6 @@
       }
     },
     {
-      "id": "animal-law-review",
-      "name": "Animal Law Review",
-      "domain": "law.lclark.edu",
-      "url": "https://law.lclark.edu/law_reviews/animal_law_review/",
-      "category": "law",
-      "annotation": "A specialist law review publishing legal scholarship about animals since 1994.",
-      "topics": [
-        "animal law",
-        "legal scholarship",
-        "policy"
-      ],
-      "evidence_type": "academic journal",
-      "access": "Public metadata and mixed full text observed 2026-08-20",
-      "reuse": "article and publisher rights vary.",
-      "license": {
-        "status": "mixed",
-        "label": "Article and publisher rights vary",
-        "evidence_url": "https://law.lclark.edu/law_reviews/animal_law_review/",
-        "scope": "Journal metadata and articles across volumes; verify each article."
-      },
-      "references": [],
-      "link_pattern": "section root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused legal journal"
-      }
-    },
-    {
       "id": "animal-legal-historical-center",
       "name": "Animal Legal & Historical Center",
       "domain": "animallaw.info",
@@ -1815,78 +1787,6 @@
       "assessment": {
         "value": "unrated",
         "notes": "focused legal reference"
-      }
-    },
-    {
-      "id": "global-animal-law",
-      "name": "Global Animal Law",
-      "domain": "globalanimallaw.org",
-      "url": "https://www.globalanimallaw.org/",
-      "category": "law",
-      "annotation": "A cross-country database and research program for comparing animal-protection law.",
-      "topics": [
-        "comparative animal law",
-        "constitutions",
-        "legislation",
-        "global policy"
-      ],
-      "evidence_type": "legal research nonprofit",
-      "access": "Public HTML and legal indexes observed 2026-08-20",
-      "reuse": "database and site terms apply.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [
-        {
-          "label": "National legislation database",
-          "url": "https://www.globalanimallaw.org/database/national/index.html"
-        },
-        {
-          "label": "Universal animal welfare framework",
-          "url": "https://www.globalanimallaw.org/database/universal.html"
-        }
-      ],
-      "link_pattern": "root plus highlights",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused legal source"
-      }
-    },
-    {
-      "id": "harvard-animal-law-policy-program",
-      "name": "Brooks McCormick Jr. Animal Law & Policy Program",
-      "domain": "animal.law.harvard.edu",
-      "url": "https://animal.law.harvard.edu/publications/",
-      "category": "law",
-      "annotation": "Research and legal analysis from a major animal-law center.",
-      "topics": [
-        "animal law",
-        "policy",
-        "scholarship",
-        "events"
-      ],
-      "evidence_type": "university program",
-      "access": "Public HTML",
-      "reuse": "copyright varies across university pages and linked scholarship.",
-      "license": {
-        "status": "mixed",
-        "label": "University and publication rights vary",
-        "evidence_url": "https://animal.law.harvard.edu/publications/",
-        "scope": "Program pages, reports, and linked scholarship may have different rights; verify each item."
-      },
-      "references": [
-        {
-          "label": "Proposition 12 report",
-          "url": "https://animal.law.harvard.edu/wp-content/uploads/ALPP-Prop-12-Report.pdf"
-        }
-      ],
-      "link_pattern": "publications archive plus reports",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused law"
       }
     },
     {
@@ -1920,34 +1820,6 @@
       "assessment": {
         "value": "unrated",
         "notes": "focused legal source"
-      }
-    },
-    {
-      "id": "the-european-institute-for-animal-law-policy-s-newsletter",
-      "name": "The European Institute for Animal Law & Policy's Newsletter",
-      "domain": "animallaweurope.substack.com",
-      "url": "https://animallaweurope.substack.com/",
-      "category": "law",
-      "annotation": "Monthly and quarterly analysis of European animal-law and policy developments.",
-      "topics": [
-        "EU animal law",
-        "policy",
-        "legislation"
-      ],
-      "evidence_type": "Substack",
-      "access": "Public Substack publication",
-      "reuse": "per-publication robots, paywall, and license need checking.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [],
-      "link_pattern": "focused root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused law/policy"
       }
     },
     {
@@ -2220,6 +2092,348 @@
       ],
       "assessment": {
         "value": "specialized"
+      }
+    },
+    {
+      "id": "reducing-suffering",
+      "name": "Essays on Reducing Suffering",
+      "domain": "reducing-suffering.org",
+      "url": "https://reducing-suffering.org/",
+      "category": "wild",
+      "annotation": "Brian Tomasik's long-running essays on suffering-focused ethics, wild-animal suffering, insects, animal agriculture, and the moral weight of different minds.",
+      "topics": [
+        "suffering-focused ethics",
+        "wild animals",
+        "insects",
+        "farmed animals"
+      ],
+      "evidence_type": "personal essay site",
+      "access": "Public HTML index and essay pages observed 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [
+        {
+          "label": "How Many Wild Animals Are There?",
+          "url": "https://reducing-suffering.org/how-many-wild-animals-are-there/"
+        },
+        {
+          "label": "Should We Intervene in Nature?",
+          "url": "https://reducing-suffering.org/should-we-intervene-in-nature/"
+        },
+        {
+          "label": "How Much Direct Suffering Is Caused by Various Animal Foods?",
+          "url": "https://reducing-suffering.org/how-much-direct-suffering-is-caused-by-various-animal-foods/"
+        },
+        {
+          "label": "The Horror of Suffering",
+          "url": "https://reducing-suffering.org/the-horror-of-suffering/"
+        }
+      ],
+      "link_pattern": "focused root",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved from AWL review"
+      }
+    },
+    {
+      "id": "magnus-vinding",
+      "name": "Magnus Vinding",
+      "domain": "magnusvinding.com",
+      "url": "https://magnusvinding.com/",
+      "category": "future",
+      "annotation": "Essays and free books on suffering-focused ethics, speciesism, wild-animal suffering, and reducing extreme suffering.",
+      "topics": [
+        "suffering-focused ethics",
+        "speciesism",
+        "wild animals",
+        "future suffering"
+      ],
+      "evidence_type": "personal essay site",
+      "access": "Public HTML, sitemap, and free book downloads observed 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [
+        {
+          "label": "Ten Biases Against Prioritizing Wild-Animal Suffering",
+          "url": "https://magnusvinding.com/2020/07/02/ten-biases-against-prioritizing-wild-animal-suffering/"
+        },
+        {
+          "label": "Underappreciated consequentialist reasons to avoid consuming animal products",
+          "url": "https://magnusvinding.com/2020/10/03/underappreciated-consequentialist-reasons/"
+        }
+      ],
+      "link_pattern": "focused root",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved from AWL review"
+      }
+    },
+    {
+      "id": "simon-knutsson",
+      "name": "Simon Knutsson",
+      "domain": "simonknutsson.com",
+      "url": "https://www.simonknutsson.com/",
+      "category": "sentience",
+      "annotation": "Philosophy on suffering-focused ethics, population ethics, and the welfare of insects and other beings.",
+      "topics": [
+        "suffering-focused ethics",
+        "insects",
+        "population ethics"
+      ],
+      "evidence_type": "personal philosophy site",
+      "access": "Web reader retrieved public HTML 2026-09-26; direct orb connections timed out.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [
+        {
+          "label": "How Good or Bad Is the Life of an Insect?",
+          "url": "https://www.simonknutsson.com/how-good-or-bad-is-the-life-of-an-insect"
+        },
+        {
+          "label": "Introduction to suffering-focused ethics",
+          "url": "https://www.simonknutsson.com/introduction-to-suffering-focused-ethics/"
+        }
+      ],
+      "link_pattern": "focused root",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved; not exclusively animal-focused"
+      }
+    },
+    {
+      "id": "manu-herran",
+      "name": "Manu Herrán",
+      "domain": "manuherran.com",
+      "url": "https://manuherran.com/",
+      "category": "sentience",
+      "annotation": "English and Spanish essays on sentience, reducing suffering, suffering-focused ethics, and suffering in nature.",
+      "topics": [
+        "sentience",
+        "suffering-focused ethics",
+        "wild animals"
+      ],
+      "evidence_type": "personal essay site",
+      "access": "Public HTML in a browser; some scripted requests blocked by server security 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [
+        {
+          "label": "Is there more suffering than enjoyment in nature?",
+          "url": "https://manuherran.com/is-there-more-suffering-than-enjoyment-in-nature/"
+        },
+        {
+          "label": "Understanding sentience",
+          "url": "https://manuherran.com/tag/understanding-sentience/"
+        }
+      ],
+      "link_pattern": "focused root",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved from AWL review"
+      }
+    },
+    {
+      "id": "wild-animal-suffering",
+      "name": "Wild Animal Suffering",
+      "domain": "wildanimalsuffering.org",
+      "url": "https://wildanimalsuffering.org/",
+      "category": "wild",
+      "annotation": "An illustrated introduction to the causes, scale, and moral importance of suffering among wild animals.",
+      "topics": [
+        "wild animals",
+        "suffering"
+      ],
+      "evidence_type": "explainer site",
+      "access": "Public HTML and sitemap observed 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [],
+      "link_pattern": "focused root",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved from AWL review"
+      }
+    },
+    {
+      "id": "wild-animal-welfare-bibliography",
+      "name": "Wild animal welfare: a bibliography",
+      "domain": "stafforini.com",
+      "url": "https://stafforini.com/notes/wild-animal-welfare-a-bibliography/",
+      "category": "wild",
+      "annotation": "A bibliography of philosophical and scientific writing on wild-animal welfare, predation, and intervention in nature.",
+      "topics": [
+        "wild animals",
+        "bibliography",
+        "ethics"
+      ],
+      "evidence_type": "bibliography",
+      "access": "Public HTML; robots.txt allows crawling 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [],
+      "link_pattern": "focused page",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved from AWL review"
+      }
+    },
+    {
+      "id": "timeline-wild-animal-suffering",
+      "name": "Timeline of wild-animal suffering",
+      "domain": "timelines.issarice.com",
+      "url": "https://timelines.issarice.com/wiki/Timeline_of_wild-animal_suffering",
+      "category": "wild",
+      "annotation": "A sourced timeline of ideas, writing, organizations, and events in the history of concern for wild-animal suffering.",
+      "topics": [
+        "wild animals",
+        "history"
+      ],
+      "evidence_type": "sourced timeline",
+      "access": "Browser loads about 15,600 words; plain scripted fetch receives a JavaScript challenge 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [],
+      "link_pattern": "focused page",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved; browser-only access"
+      }
+    },
+    {
+      "id": "food-impacts",
+      "name": "Food Impacts",
+      "domain": "foodimpacts.org",
+      "url": "https://foodimpacts.org/",
+      "category": "farmed",
+      "annotation": "An interactive ranking comparing animal foods by estimated welfare, health, and climate impacts, with methods and sources.",
+      "topics": [
+        "farmed animals",
+        "welfare comparisons",
+        "diet"
+      ],
+      "evidence_type": "interactive data tool",
+      "access": "Ranking is JavaScript-rendered; methods page is public HTML 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [
+        {
+          "label": "Methods",
+          "url": "https://foodimpacts.org/methods"
+        }
+      ],
+      "link_pattern": "focused root",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved for human readers"
+      }
+    },
+    {
+      "id": "socrethics",
+      "name": "Socrethics",
+      "domain": "socrethics.com",
+      "url": "https://www.socrethics.com/",
+      "category": "sentience",
+      "annotation": "Long essays by Bruno Contestabile on the evolution and prevalence of suffering, negative utilitarianism, population ethics, and Buddhist philosophy.",
+      "topics": [
+        "suffering",
+        "evolution of pain",
+        "negative utilitarianism"
+      ],
+      "evidence_type": "personal philosophy site",
+      "access": "Public HTML; robots.txt allows crawling with a crawl delay, observed 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [
+        {
+          "label": "The Biological Evolution of Pain",
+          "url": "https://www.socrethics.com/Folder2/Biology.htm"
+        },
+        {
+          "label": "The Cultural Evolution of Suffering",
+          "url": "https://www.socrethics.com/Folder2/Culture.htm"
+        },
+        {
+          "label": "Is There a Predominance of Suffering?",
+          "url": "https://www.socrethics.com/Folder2/Prevalence-of-Suffering.htm"
+        }
+      ],
+      "link_pattern": "broad root with highlights",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved root with animal-relevant highlights"
+      }
+    },
+    {
+      "id": "importance-of-wild-animal-suffering",
+      "name": "The Importance of Wild-Animal Suffering",
+      "domain": "longtermrisk.org",
+      "url": "https://longtermrisk.org/research/the-importance-of-wild-animal-suffering/",
+      "category": "wild",
+      "annotation": "Brian Tomasik's essay on the scale of suffering among wild animals, its causes, and the ethics of intervening in nature.",
+      "topics": [
+        "wild animals",
+        "suffering",
+        "intervention"
+      ],
+      "evidence_type": "essay",
+      "access": "Public HTML, about 8,900 words, observed 2026-09-26.",
+      "reuse": "No general reuse license was recorded; source copyright applies.",
+      "license": {
+        "status": "unknown",
+        "label": "No verified reuse license",
+        "evidence_url": null,
+        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+      },
+      "references": [],
+      "link_pattern": "focused page",
+      "assessment": {
+        "value": "high",
+        "notes": "user approved; only copy found"
       }
     }
   ],
