@@ -8,7 +8,7 @@ const catalogPath = path.join(projectRoot, "src/data/catalog.json");
 const defaultBaselinePath = path.join(projectRoot, "data/source-audit-baseline.json");
 const defaultOutputDirectory = path.join(projectRoot, ".source-audit");
 const userAgent =
-  "AnimalWelfareReadingListAudit/1.0 (+https://github.com/wblazer/state-of-animal-welfare)";
+  "AnimalWelfareIndexAudit/1.0 (+https://github.com/wblazer/animal-welfare-index)";
 const aiAgents = [
   "GPTBot",
   "Google-Extended",

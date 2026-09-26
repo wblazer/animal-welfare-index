@@ -1,8 +1,8 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://wblazer.github.io/state-of-animal-welfare",
-  base: "/state-of-animal-welfare",
+  site: "https://wblazer.github.io/animal-welfare-index",
+  base: "/animal-welfare-index",
   output: "static",
   build: {
     assets: "assets",

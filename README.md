@@ -1,8 +1,10 @@
-# Animal Welfare Reading List
+# Animal Welfare Index
 
-A curated, annotated library of writing, research, and data on animal welfare.
+A curated index of writing, research, and data on animal welfare.
 
-Primary links point to the most relevant durable site or page. Annotations are original; linked content is not copied.
+Live site: <https://wblazer.github.io/animal-welfare-index/>
+
+Each entry links to a source, describes it, lists selected pages when useful, and records tags and reuse-license information. Annotations are original; linked content is not copied.
 
 ## Build and run
 
@@ -12,20 +14,18 @@ npm run build
 npm run preview
 ```
 
-Then open `http://localhost:8080`.
+Then open `http://localhost:8080/animal-welfare-index/`.
 
 ## Outputs
 
-`src/data/catalog.json` is the single source of truth. Every source is rendered in its subject category, in alphabetical order. Topics, access, reuse, link pattern, references, and optional editorial assessments remain available as metadata; assessments do not affect whether or where a source appears.
+`src/data/catalog.json` is the single source of truth. Astro validates it and generates:
 
-Astro validates the catalog and generates:
-
-- A complete static HTML page
+- A static HTML table containing every source
 - `catalog.json` and `catalog.csv`
 - JSON-LD in the HTML document
 - `llms.txt` and `robots.txt`
 
-The build has no client-side JavaScript. Generated files live in `dist/` and are not committed.
+The table includes search and multi-select filters for tags and license status. Filtering runs in the browser, and the JSON export follows the current selection. All sources remain in the initial HTML without JavaScript.
 
 ## Source audits
 

@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "dist");
 const port = Number(process.env.PORT || 8080);
-const base = "/state-of-animal-welfare";
+const base = "/animal-welfare-index";
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".csv": "text/csv; charset=utf-8",
