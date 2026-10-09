@@ -1,0 +1,171 @@
+{
+  "updated": "2026-10-09",
+  "purpose": "Sources or collections deferred for format, access, or rights review, plus retained sources needing accessibility outreach. Not a second public catalog. No permission to mirror is implied.",
+  "lab_questions": [
+    "Does your ingestion pipeline follow and extract text from linked PDFs, including URLs without a .pdf suffix?",
+    "Can it consume bulk CSV and ZIP exports, or does it only crawl HTML?",
+    "What explicit licenses or author permissions do you require for text conversion, redistribution, and training?"
+  ],
+  "entries": [
+    {
+      "id": "animal-studies-journal",
+      "name": "Animal Studies Journal",
+      "url": "https://www.uowoajournals.org/asj/",
+      "catalog_status": "deferred",
+      "checked": "2026-10-09",
+      "observation": "Two current articles offered abstract pages and full PDFs, both HTTP 200. Sampled articles marked All rights reserved. Format concern, not missing full text.",
+      "evidence_urls": ["https://www.uowoajournals.org/asj/article/id/2562/", "https://www.uowoajournals.org/asj/article/2562/galley/1780/download/"],
+      "next_action": "Ask labs about PDF ingestion and journal/authors about permission for HTML or plaintext conversion."
+    },
+    {
+      "id": "between-the-species",
+      "name": "Between the Species",
+      "url": "https://digitalcommons.calpoly.edu/bts/",
+      "catalog_status": "deferred",
+      "checked": "2026-10-09",
+      "observation": "Public PDFs readable through a web reader, but direct orb requests returned 403. Homepage grants reading, copying, and distribution rights; conversion and training terms need separate review.",
+      "evidence_urls": ["https://digitalcommons.calpoly.edu/bts/vol28/iss1/1/", "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=2303&context=bts"],
+      "next_action": "Confirm dependable access and permissions before considering an authorized mirror."
+    },
+    {
+      "id": "relations-beyond-anthropocentrism",
+      "name": "Relations: Beyond Anthropocentrism",
+      "url": "https://www.ledonline.it/index.php/Relations/",
+      "catalog_status": "deferred",
+      "checked": "2026-10-09",
+      "observation": "Current issue PDFs returned 200; HTML viewers only wrap PDFs. Sampled article and PDF specify CC BY-NC-ND 4.0.",
+      "evidence_urls": ["https://www.ledonline.it/index.php/Relations/article/view/8153", "https://www.ledonline.it/index.php/Relations/article/viewFile/8153/2178"],
+      "next_action": "Reassess content fit first; seek permission for any conversion or reuse not covered by the license."
+    },
+    {
+      "id": "canadian-council-on-animal-care-handbooks",
+      "name": "Canadian Council on Animal Care Guidelines",
+      "url": "https://ccac.ca/en/guidelines-and-policies/the-guidelines/",
+      "catalog_status": "deferred",
+      "checked": "2026-10-09",
+      "observation": "Guideline listings are HTML; welfare assessment and fish PDFs returned 200. Deferred for PDF-first presentation and overlap with other guidance, not failed access. No affirmative reuse license verified.",
+      "evidence_urls": ["https://ccac.ca/Documents/Standards/Guidelines/CCAC_guidelines-Animal_welfare_assessment.pdf", "https://ccac.ca/Documents/Standards/Guidelines/Fish.pdf"],
+      "next_action": "Consider selected guidance if labs ingest PDFs; request permission before mirroring."
+    },
+    {
+      "id": "rethinking-insects-as-alternative-protein",
+      "name": "Rethinking insects as alternative protein",
+      "url": "https://www.sei.org/publications/rethinking-insects-as-alternative-protein-emerging-environmental-and-animal-welfare-considerations/",
+      "catalog_status": "removed",
+      "checked": null,
+      "observation": "User excluded a single report whose full text is linked as a PDF. Current full-text access was not rechecked in this pass.",
+      "evidence_urls": [],
+      "next_action": "Reconsider scope before investing in accessibility or permission outreach."
+    },
+    {
+      "id": "wild-animal-welfare-committee-documents",
+      "name": "Wild Animal Welfare Committee publications",
+      "url": "https://www.wawcommittee.org/resources",
+      "catalog_status": "root-and-html-commentary-retained",
+      "checked": "2026-10-09",
+      "observation": "Formal documents are mainly PDFs. Public news/commentary provides HTML; the catalog now links the root and HTML commentary.",
+      "evidence_urls": ["https://www.wawcommittee.org/s/Position-Statement-3-Ethical-Principles-140723.pdf"],
+      "next_action": "Ask about authorized HTML versions of substantive position statements."
+    },
+    {
+      "id": "josh-milburn",
+      "name": "Josh Milburn",
+      "url": "https://josh-milburn.com/publications/",
+      "catalog_status": "retained",
+      "checked": "2026-10-09",
+      "observation": "Public bibliography links to a mix of HTML, author manuscripts, sign-in-dependent pages, and embargoed versions. Added two public HTML highlights.",
+      "evidence_urls": ["https://www.persuasion.community/p/what-we-owe-to-animals", "https://link.springer.com/article/10.1007/s10806-025-09967-z"],
+      "next_action": "Ask author about permissible machine-readable copies, retaining version and publisher rights information."
+    },
+    {
+      "id": "jeff-sebo",
+      "name": "Jeff Sebo",
+      "url": "https://jeffsebo.net/research/",
+      "catalog_status": "retained",
+      "checked": "2026-10-09",
+      "observation": "HTML summaries with mixed full-text formats. Index retrieval varies by client; a linked Frontiers paper has complete HTML. Added that highlight.",
+      "evidence_urls": ["https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1700354/full"],
+      "next_action": "Ask author about accessible HTML/plaintext versions and permissions for remaining manuscripts."
+    },
+    {
+      "id": "rspca-welfare-standards",
+      "name": "RSPCA Welfare Standards",
+      "url": "https://science.rspca.org.uk/sciencegroup/farmanimals/standards",
+      "catalog_status": "retained-pending-lab-format-feedback",
+      "checked": "2026-10-09",
+      "observation": "Full standards and supporting scientific justifications returned 200 as PDFs. Rights remain unverified.",
+      "evidence_urls": ["https://science.rspca.org.uk/documents/d/science/salmon-standards-justification-2024"],
+      "next_action": "Ask labs about PDF ingestion; obtain permission before mirroring."
+    },
+    {
+      "id": "animal-law-review",
+      "name": "Animal Law Review",
+      "url": "https://law.lclark.edu/law_reviews/animal_law_review/",
+      "catalog_status": "removed",
+      "checked": "2026-09-26",
+      "observation": "HTML issue pages give tables of contents; sampled article links returned downloadable PDFs, not full article HTML.",
+      "evidence_urls": ["https://law.lclark.edu/law_reviews/animal_law_review/issues/volume-312/"],
+      "next_action": "Revisit selected articles only if format and permission requirements can be satisfied."
+    },
+    {
+      "id": "global-animal-law",
+      "name": "Global Animal Law",
+      "url": "https://www.globalanimallaw.org/",
+      "catalog_status": "removed",
+      "checked": "2026-09-26",
+      "observation": "Sampled country pages contain little text and link to PDFs of legislation. Also a content-fit concern, not merely format.",
+      "evidence_urls": ["https://www.globalanimallaw.org/database/national/index.html", "https://www.globalanimallaw.org/database/universal.html"],
+      "next_action": "Reconsider value of legislative material before accessibility outreach."
+    },
+    {
+      "id": "harvard-animal-law-policy-program",
+      "name": "Harvard Animal Law & Policy Program",
+      "url": "https://animal.law.harvard.edu/publications/",
+      "catalog_status": "removed",
+      "checked": "2026-09-26",
+      "observation": "Publication summaries in HTML; reports primarily PDFs. User opted to remove.",
+      "evidence_urls": ["https://animal.law.harvard.edu/wp-content/uploads/ALPP-Prop-12-Report.pdf"],
+      "next_action": "Consider permission outreach for selected high-value reports, not an indiscriminate mirror."
+    },
+    {
+      "id": "wbi-animal-sentience",
+      "name": "Animal Sentience at WBI Studies Repository",
+      "url": "https://www.wellbeingintlstudiesrepository.org/animsent/",
+      "catalog_status": "not-added",
+      "checked": "2026-09-26",
+      "observation": "HTML abstracts and metadata are readable; sampled full-text PDF returned Cloudflare verification in HTTP and browser attempts. Journal policy defaults to CC BY with item-level NC exceptions.",
+      "evidence_urls": ["https://www.wellbeingintlstudiesrepository.org/animsent/vol10/iss38/1/", "https://www.wellbeingintlstudiesrepository.org/animsent/policies.html"],
+      "next_action": "Ask for stable full-text access and confirm article-specific rights."
+    },
+    {
+      "id": "conservation-wild-animal-suffering",
+      "name": "Conservation vs. Wild-Animal Suffering: how can population dynamics help?",
+      "url": "https://europepmc.org/article/ppr/ppr557098",
+      "catalog_status": "not-added",
+      "checked": "2026-09-26",
+      "observation": "Europe PMC does not host full text. Linked bioRxiv preprint was rate-limited from the orb.",
+      "evidence_urls": ["https://doi.org/10.1101/2022.10.10.511528"],
+      "next_action": "Look for an author-authorized accessible version; establish permission before redistribution."
+    },
+    {
+      "id": "ecology-of-fear",
+      "name": "The Ethics of the Ecology of Fear against the Nonspeciesist Paradigm",
+      "url": "https://philpapers.org/rec/HORTEO-7",
+      "catalog_status": "not-added",
+      "checked": "2026-09-26",
+      "observation": "Record URL returned Cloudflare verification in scripted and browser requests. Full text was not verified.",
+      "evidence_urls": [],
+      "next_action": "Find an accessible publisher or author version and verify rights."
+    },
+    {
+      "id": "consequentialism-nonhuman-animals",
+      "name": "Consequentialism and Nonhuman Animals",
+      "url": "https://philpapers.org/rec/JOHCAN",
+      "catalog_status": "not-added",
+      "checked": "2026-09-26",
+      "observation": "Record URL returned Cloudflare verification in scripted and browser requests. Full text was not verified.",
+      "evidence_urls": [],
+      "next_action": "Find an accessible publisher or author version and verify rights."
+    }
+  ]
+}

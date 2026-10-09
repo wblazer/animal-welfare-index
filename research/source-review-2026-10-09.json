@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "note": "Manual owner verdicts are recorded independently of earlier agent quality ratings. Provisional decisions below are agent judgments following access investigation, not explicit owner approvals.",
+  "owner_keep": [
+    "andy-masley", "stanford-animal-consciousness", "bold-reasoning-with-peter-singer",
+    "moral-law-within", "new-york-declaration", "oxford-centre-for-animal-ethics",
+    "searching-animal-sentience", "sentientism", "animal-ethics", "center-for-reducing-suffering",
+    "frontiers-in-veterinary-science-animal-behavior-and-welfare", "welfare-footprint",
+    "coefficient-giving-farm-animal-welfare-newsletter", "marina-bolotnikova",
+    "open-philanthropy-farm-animal-welfare", "animal-welfare-observatory", "aquatic-life-institute",
+    "crustacean-compassion", "fish-welfare-initiative", "fishcount", "insect-welfare-research-society",
+    "rethink-priorities-animal-welfare", "shrimp-welfare-project", "the-welfare-of-farmed-nile-tilapia",
+    "bentham-s-newsletter", "wild-animal-initiative", "avma-animal-welfare", "eurl-ecvam"
+  ],
+  "owner_keep_with_refinements": {
+    "good-thoughts": "Keep broad root with animal-focused highlights; two added.",
+    "josh-milburn": "Valuable publications; retain with verified HTML highlights and accessibility outreach.",
+    "jeff-sebo": "Keep research index, add HTML highlight, record possible author outreach.",
+    "nonhuman-rights-project": "Use root domain and blog instead of primarily litigation."
+  },
+  "owner_remove": {
+    "shadow-price": "Publication too small.",
+    "fishethogroup": "Insufficient actual content.",
+    "rethinking-insects-as-alternative-protein": "Single PDF report; preserve in accessibility outreach data with scope caveat.",
+    "welfare-assessment-for-laboratory-animals": "Insufficient content as a separate entry. Do not re-add as an NC3Rs highlight."
+  },
+  "provisional_defer": {
+    "animal-studies-journal": "Full-text PDFs accessible, not HTML; reserve for lab format feedback and permission outreach.",
+    "between-the-species": "Public PDFs exist but direct access varies; reserve for format and permission review.",
+    "relations-beyond-anthropocentrism": "PDF-first with NC/ND license and unresolved content fit; reserve.",
+    "canadian-council-on-animal-care-handbooks": "Owner leaning no; PDFs accessible, but overlapping specialized guidance. Reserve rather than label inaccessible."
+  },
+  "provisional_keep_after_check": {
+    "animal-welfare": "Current sampled articles have full HTML and CC BY 4.0; retain journal with representative HTML highlight.",
+    "fao": "Dashboard is a shell, but public JSON manifest and real CSV/ZIP data exist; add direct links.",
+    "rspca-welfare-standards": "Full PDF standards and rationales downloadable; retain pending lab PDF-format feedback.",
+    "eu-alures": "Working CSV exports include animal-use/severity statistics and narrative project harms. Keep despite dashboard appearance.",
+    "nc3rs": "Practical guidance is server-rendered HTML; retain, with grimace-scale highlight.",
+    "prepare-guidelines": "Substantive HTML guidance and CC BY 4.0 website license verified; keep.",
+    "animal-legal-historical-center": "Cases, statutes, and topical explanations expose actual HTML; keep.",
+    "massey-animal-welfare-science-and-bioethics-centre": "Owner tentatively accepts existing entry and cross-site papers; retain.",
+    "wild-animal-welfare-committee": "Use root and readable news/commentary; record formal PDFs separately for outreach."
+  }
+}

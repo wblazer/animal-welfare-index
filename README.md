@@ -46,6 +46,8 @@ node scripts/audit-sources.mjs policies --update-baseline
 
 Automated results describe public technical and licensing signals; they do not determine legal permission to copy or train on a source. The audit never removes catalog entries.
 
+`research/accessibility-outreach.json` preserves sources deferred for format, access, or rights review, including possible permission and mirror requests. It is not rendered in the public index. `research/source-review-2026-10-09.json` records owner verdicts separately from provisional editorial decisions.
+
 ## Licenses
 
 Original editorial summaries and site prose are available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Catalog facts and metadata are available under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).

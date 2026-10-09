@@ -2,7 +2,7 @@
   "name": "Animal Welfare Index",
   "description": "An annotated library of writing, research, and data on the welfare of sentient animals.",
   "introduction": "Writing, research, and data on what animals experience, how many are affected, and what could change.",
-  "updated": "2026-09-26",
+  "updated": "2026-10-09",
   "categories": [
     {
       "id": "sentience",
@@ -170,63 +170,6 @@
       }
     },
     {
-      "id": "animal-studies-journal",
-      "name": "Animal Studies Journal",
-      "domain": "uowoajournals.org",
-      "url": "https://www.uowoajournals.org/asj/",
-      "category": "sentience",
-      "annotation": "Open-to-read scholarship across animal studies, including normative and social analysis.",
-      "topics": [
-        "animal studies",
-        "ethics",
-        "culture",
-        "law"
-      ],
-      "evidence_type": "open-access journal",
-      "access": "Public web pages; access should be checked before reuse.",
-      "reuse": "Public HTML/PDF, but articles retain author copyright and the journal states that reuse beyond statutory exceptions needs prior permission; not Creative Commons.",
-      "license": {
-        "status": "restricted",
-        "label": "Permission required beyond stated exceptions",
-        "evidence_url": "https://www.uowoajournals.org/asj/",
-        "scope": "Journal articles; the journal states that reuse beyond statutory exceptions requires prior permission."
-      },
-      "references": [],
-      "link_pattern": "focused journal root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused scholarship; rights caution"
-      }
-    },
-    {
-      "id": "between-the-species",
-      "name": "Between the Species",
-      "domain": "digitalcommons.calpoly.edu",
-      "url": "https://digitalcommons.calpoly.edu/bts/",
-      "category": "sentience",
-      "annotation": "A long-running open-to-read animal-philosophy journal.",
-      "topics": [
-        "animal ethics",
-        "philosophy",
-        "human-animal relations"
-      ],
-      "evidence_type": "open-access journal",
-      "access": "Public web pages; access should be checked before reuse.",
-      "reuse": "Public HTML/PDF, but no Creative Commons license; reuse outside narrow personal-use exceptions requires written agreement.",
-      "license": {
-        "status": "restricted",
-        "label": "Written agreement required for reuse",
-        "evidence_url": "https://digitalcommons.calpoly.edu/bts/",
-        "scope": "Journal articles outside stated personal-use exceptions."
-      },
-      "references": [],
-      "link_pattern": "focused journal root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused scholarship; rights caution"
-      }
-    },
-    {
       "id": "bold-reasoning-with-peter-singer",
       "name": "Bold Reasoning with Peter Singer",
       "domain": "boldreasoningwithpetersinger.substack.com",
@@ -289,7 +232,16 @@
         "evidence_url": null,
         "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
       },
-      "references": [],
+      "references": [
+        {
+          "label": "Review of Animal Liberation Now",
+          "url": "https://www.goodthoughts.blog/p/review-of-animal-liberation-now"
+        },
+        {
+          "label": "Meat Externalities",
+          "url": "https://www.goodthoughts.blog/p/meat-externalities"
+        }
+      ],
       "link_pattern": "root plus highlights",
       "assessment": {
         "value": "unrated",
@@ -310,7 +262,7 @@
         "technology"
       ],
       "evidence_type": "scholar website",
-      "access": "Public HTML observed 2026-08-20",
+      "access": "Public HTML publications index; linked work includes HTML articles, PDF manuscripts, embargoes, and sign-in-dependent pages. Checked 2026-10-09.",
       "reuse": "author and publisher copyright applies.",
       "license": {
         "status": "unknown",
@@ -318,7 +270,16 @@
         "evidence_url": null,
         "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
       },
-      "references": [],
+      "references": [
+        {
+          "label": "What We Owe to Animals",
+          "url": "https://www.persuasion.community/p/what-we-owe-to-animals"
+        },
+        {
+          "label": "The Virtues of Cultivated Meat",
+          "url": "https://link.springer.com/article/10.1007/s10806-025-09967-z"
+        }
+      ],
       "link_pattern": "publications index",
       "assessment": {
         "value": "unrated",
@@ -473,34 +434,6 @@
       }
     },
     {
-      "id": "relations-beyond-anthropocentrism",
-      "name": "Relations: Beyond Anthropocentrism",
-      "domain": "ledonline.it",
-      "url": "https://www.ledonline.it/index.php/Relations/",
-      "category": "sentience",
-      "annotation": "Open interdisciplinary scholarship explicitly challenging human-centered moral frameworks.",
-      "topics": [
-        "anthropocentrism",
-        "animal ethics",
-        "environmental ethics"
-      ],
-      "evidence_type": "open-access journal",
-      "access": "Public web pages; access should be checked before reuse.",
-      "reuse": "Public HTML/PDF under CC BY-NC-ND 4.0. Noncommercial use is allowed with attribution, but derivatives are prohibited, making training use legally unclear or unsuitable.",
-      "license": {
-        "status": "restricted",
-        "label": "CC BY-NC-ND 4.0",
-        "evidence_url": "https://www.ledonline.it/index.php/Relations/",
-        "scope": "Journal articles: attribution and noncommercial use are allowed, but derivatives are prohibited."
-      },
-      "references": [],
-      "link_pattern": "focused journal root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused scholarship; rights caution"
-      }
-    },
-    {
       "id": "searching-animal-sentience",
       "name": "Searching for Animal Sentience",
       "domain": "pmc.ncbi.nlm.nih.gov",
@@ -565,47 +498,6 @@
       }
     },
     {
-      "id": "shadow-price",
-      "name": "Shadow Price",
-      "domain": "shadowprice.substack.com",
-      "url": "https://shadowprice.substack.com/",
-      "category": "sentience",
-      "annotation": "Essays applying economics to animal welfare, including policy, incentives, and how animal lives are valued.",
-      "topics": [
-        "animal-welfare economics",
-        "policy",
-        "valuation"
-      ],
-      "evidence_type": "Substack",
-      "access": "Public Substack publication",
-      "reuse": "per-publication robots, paywall, and license need checking.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [
-        {
-          "label": "The short, commonsense case for improving farm animal welfare",
-          "url": "https://shadowprice.substack.com/p/the-short-commonsense-case-for-improving"
-        },
-        {
-          "label": "UK NIMBYism is bad for chickens",
-          "url": "https://shadowprice.substack.com/p/uk-nimbyism-is-bad-for-chickens"
-        },
-        {
-          "label": "Half as many cows, but twice as many chickens?",
-          "url": "https://shadowprice.substack.com/p/half-as-many-cows-but-twice-as-many"
-        }
-      ],
-      "link_pattern": "focused root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused economics"
-      }
-    },
-    {
       "id": "animal-welfare",
       "name": "Animal Welfare",
       "domain": "cambridge.org",
@@ -619,7 +511,7 @@
         "species-specific research"
       ],
       "evidence_type": "academic journal",
-      "access": "Gold open access since 2023",
+      "access": "Full article HTML verified for two current articles on 2026-10-09; older archive access and rights vary.",
       "reuse": "current articles inspected use CC BY 4.0. Older volumes predate the transition, so retain article-level license checks.",
       "license": {
         "status": "mixed",
@@ -627,7 +519,12 @@
         "evidence_url": "https://www.cambridge.org/core/journals/animal-welfare",
         "scope": "Current articles inspected since the 2023 open-access transition; older volumes require article-level checks."
       },
-      "references": [],
+      "references": [
+        {
+          "label": "What do we owe feral animals?",
+          "url": "https://www.cambridge.org/core/journals/animal-welfare/article/what-do-we-owe-feral-animals/DD49DAAA0F565C1D3633C3AC2A9F6E62"
+        }
+      ],
       "link_pattern": "journal root plus open articles",
       "assessment": {
         "value": "unrated",
@@ -746,7 +643,7 @@
         "official statistics"
       ],
       "evidence_type": "Official international statistics",
-      "access": "Interactive databases, bulk downloads, and APIs",
+      "access": "FAOSTAT front end is JavaScript-dependent; public JSON dataset manifest and ZIP/CSV exports verified 2026-10-09.",
       "reuse": "FAO database terms and source-specific conditions apply.",
       "license": {
         "status": "mixed",
@@ -756,8 +653,16 @@
       },
       "references": [
         {
-          "label": "Fisheries and aquaculture statistics",
-          "url": "https://www.fao.org/fishery/en/statistics"
+          "label": "FAOSTAT bulk-download manifest (JSON)",
+          "url": "https://bulks-faostat.fao.org/production/datasets_E.json"
+        },
+        {
+          "label": "Crops and livestock production (CSV ZIP)",
+          "url": "https://bulks-faostat.fao.org/production/Production_Crops_Livestock_E_All_Data_(Normalized).zip"
+        },
+        {
+          "label": "Global fisheries and aquaculture production, 2026 release (CSV ZIP)",
+          "url": "https://www.fao.org/fishery/static/Data/GlobalProduction_2026.1.0.zip"
         }
       ],
       "assessment": {
@@ -944,7 +849,7 @@
         "slaughter"
       ],
       "evidence_type": "nonprofit standards",
-      "access": "Public HTML and PDFs observed 2026-08-20",
+      "access": "HTML index with downloadable full-text PDF standards and scientific justifications; sample salmon and hen documents returned 200 on 2026-10-09.",
       "reuse": "RSPCA copyright applies.",
       "license": {
         "status": "unknown",
@@ -952,7 +857,16 @@
         "evidence_url": null,
         "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
       },
-      "references": [],
+      "references": [
+        {
+          "label": "Farmed Atlantic salmon standards (PDF)",
+          "url": "https://science.rspca.org.uk/documents/d/science/rspca_welfare_standards_for_farmed_atlantic_salmon"
+        },
+        {
+          "label": "Scientific justifications for salmon standards (PDF)",
+          "url": "https://science.rspca.org.uk/documents/d/science/salmon-standards-justification-2024"
+        }
+      ],
       "link_pattern": "section root",
       "assessment": {
         "value": "unrated",
@@ -1220,40 +1134,6 @@
       }
     },
     {
-      "id": "fishethogroup",
-      "name": "FishEthoGroup",
-      "domain": "fishethogroup.net",
-      "url": "https://fishethogroup.net/whatwedo/research/",
-      "category": "aquatic",
-      "annotation": "Species-level evidence on fish behavior and welfare in aquaculture.",
-      "topics": [
-        "fish welfare",
-        "ethology",
-        "aquaculture",
-        "species profiles"
-      ],
-      "evidence_type": "research group",
-      "access": "Public HTML and documents observed 2026-08-20",
-      "reuse": "item-level rights apply.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [
-        {
-          "label": "Papers",
-          "url": "https://fishethogroup.net/whatwedo/dissemination/papers/"
-        }
-      ],
-      "link_pattern": "research section plus papers",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused aquatic source"
-      }
-    },
-    {
       "id": "insect-welfare-research-society",
       "name": "Insect Welfare Research Society",
       "domain": "insectwelfare.com",
@@ -1327,35 +1207,6 @@
       "assessment": {
         "value": "unrated",
         "notes": "focused section"
-      }
-    },
-    {
-      "id": "rethinking-insects-as-alternative-protein",
-      "name": "Rethinking insects as alternative protein",
-      "domain": "sei.org",
-      "url": "https://www.sei.org/publications/rethinking-insects-as-alternative-protein-emerging-environmental-and-animal-welfare-considerations/",
-      "category": "aquatic",
-      "annotation": "A Stockholm Environment Institute report on the environmental and animal-welfare consequences of farming insects for protein.",
-      "topics": [
-        "insect farming",
-        "welfare",
-        "food systems",
-        "policy"
-      ],
-      "evidence_type": "research report",
-      "access": "Public institutional page observed 2026-08-20 but automated requests may be restricted",
-      "reuse": "SEI copyright and item-level terms apply.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [],
-      "link_pattern": "article",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused insect-welfare source"
       }
     },
     {
@@ -1513,7 +1364,7 @@
       "id": "wild-animal-welfare-committee",
       "name": "Wild Animal Welfare Committee",
       "domain": "wawcommittee.org",
-      "url": "https://www.wawcommittee.org/resources",
+      "url": "https://www.wawcommittee.org/",
       "category": "wild",
       "annotation": "An independent UK committee examining the welfare of free-living animals affected by human activity. Its publications show how welfare evidence can change decisions about wildlife management, conservation, conflict, and population control.",
       "topics": [
@@ -1523,7 +1374,7 @@
         "United Kingdom"
       ],
       "evidence_type": "Independent expert analysis and policy advice",
-      "access": "Public HTML reports and publications",
+      "access": "Public HTML news and commentary; formal resources are primarily PDFs. Checked 2026-10-09.",
       "reuse": "Check the terms attached to individual publications.",
       "license": {
         "status": "mixed",
@@ -1533,8 +1384,12 @@
       },
       "references": [
         {
-          "label": "Ethical principles for wildlife management",
-          "url": "https://www.wawcommittee.org/s/Position-Statement-3-Ethical-Principles-140723.pdf"
+          "label": "Welfare needs to be part of sustainable fishing",
+          "url": "https://www.wawcommittee.org/news/welfare-needs-to-be-part-of-sustainable-fishing"
+        },
+        {
+          "label": "News and commentary",
+          "url": "https://www.wawcommittee.org/news"
         }
       ],
       "assessment": {
@@ -1571,43 +1426,6 @@
       }
     },
     {
-      "id": "canadian-council-on-animal-care-handbooks",
-      "name": "Canadian Council on Animal Care Guidelines",
-      "domain": "ccac.ca",
-      "url": "https://ccac.ca/en/guidelines-and-policies/the-guidelines/",
-      "category": "research",
-      "annotation": "Detailed Canadian standards for the care and use of animals in research and teaching.",
-      "topics": [
-        "research animals",
-        "care guidelines",
-        "species standards"
-      ],
-      "evidence_type": "standards body",
-      "access": "Public HTML and PDFs observed 2026-08-20",
-      "reuse": "CCAC copyright applies.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [
-        {
-          "label": "General guidelines",
-          "url": "https://ccac.ca/en/guidelines-and-policies/the-guidelines/general-guidelines.html"
-        },
-        {
-          "label": "Guidelines by type of animal",
-          "url": "https://ccac.ca/en/guidelines-and-policies/the-guidelines/types-of-animal-guidelines.html"
-        }
-      ],
-      "link_pattern": "section root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "authoritative standards source"
-      }
-    },
-    {
       "id": "eu-alures",
       "name": "EU Animals in Science and ALURES",
       "domain": "environment.ec.europa.eu",
@@ -1621,7 +1439,7 @@
         "official statistics"
       ],
       "evidence_type": "Official regional statistics and project records",
-      "access": "Public dashboards and full dataset exports",
+      "access": "Public HTML and direct CSV exports verified 2026-10-09, including species/severity statistics and narrative project summaries.",
       "reuse": "European Commission reuse rules and dataset-specific notices apply.",
       "license": {
         "status": "mixed",
@@ -1633,6 +1451,14 @@
         {
           "label": "ALURES dataset export",
           "url": "https://environmental-data.ec.europa.eu/alures/datasets.html"
+        },
+        {
+          "label": "Animal-use and severity statistics (CSV)",
+          "url": "https://publicstorage.data.env.service.ec.europa.eu/alures/export/statistics/alures_statistics_data_published.csv"
+        },
+        {
+          "label": "Project summaries, harms, and refinements (CSV)",
+          "url": "https://publicstorage.data.env.service.ec.europa.eu/alures/export/nts/alures_nts_projects.csv"
         }
       ],
       "assessment": {
@@ -1687,7 +1513,7 @@
         "experimental design"
       ],
       "evidence_type": "research nonprofit",
-      "access": "Public HTML and resources observed 2026-08-20",
+      "access": "Server-rendered practical HTML guidance, with some PDF posters; sample pages returned 200 with a browser user agent on 2026-10-09.",
       "reuse": "item-level rights apply.",
       "license": {
         "status": "unknown",
@@ -1695,7 +1521,12 @@
         "evidence_url": null,
         "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
       },
-      "references": [],
+      "references": [
+        {
+          "label": "Grimace scales for recognizing pain",
+          "url": "https://nc3rs.org.uk/3rs-resources/grimace-scales"
+        }
+      ],
       "link_pattern": "resource library",
       "assessment": {
         "value": "unrated",
@@ -1716,48 +1547,24 @@
         "reproducibility"
       ],
       "evidence_type": "research guidelines",
-      "access": "Public HTML and documents observed 2026-08-20",
-      "reuse": "Norecopa copyright and item-level terms apply.",
+      "access": "Public HTML topic guidance and checklist verified 2026-10-09; PDFs also available.",
+      "reuse": "Norecopa website material is CC BY 4.0 unless otherwise stated; third-party material retains its own terms.",
       "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
+        "status": "open",
+        "label": "CC BY 4.0 for Norecopa website material",
+        "evidence_url": "https://norecopa.no/prepare",
+        "scope": "Norecopa's website content unless otherwise specified. Linked third-party material is not covered."
       },
-      "references": [],
+      "references": [
+        {
+          "label": "PREPARE checklist",
+          "url": "https://norecopa.no/prepare/prepare-checklist"
+        }
+      ],
       "link_pattern": "focused root",
       "assessment": {
         "value": "unrated",
         "notes": "focused methods source"
-      }
-    },
-    {
-      "id": "welfare-assessment-for-laboratory-animals",
-      "name": "Welfare Assessment for Laboratory Animals",
-      "domain": "nc3rs.org.uk",
-      "url": "https://www.nc3rs.org.uk/3rs-resources/welfare-assessment",
-      "category": "research",
-      "annotation": "Practical methods for recognizing and measuring welfare changes in research animals.",
-      "topics": [
-        "laboratory animals",
-        "welfare indicators",
-        "severity",
-        "monitoring"
-      ],
-      "evidence_type": "research methods guide",
-      "access": "Public HTML observed 2026-08-20",
-      "reuse": "NC3Rs copyright applies.",
-      "license": {
-        "status": "unknown",
-        "label": "No verified reuse license",
-        "evidence_url": null,
-        "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
-      },
-      "references": [],
-      "link_pattern": "section root",
-      "assessment": {
-        "value": "unrated",
-        "notes": "focused measurement source"
       }
     },
     {
@@ -1774,7 +1581,7 @@
         "legal history"
       ],
       "evidence_type": "university legal database",
-      "access": "Public HTML and database navigation",
+      "access": "Substantive HTML cases, statutes, and topical explanations; sampled fish-farm explainer and statute returned 200 on 2026-10-09. Some journal articles are PDF-only.",
       "reuse": "Michigan State copyright/terms require review.",
       "license": {
         "status": "unknown",
@@ -1793,9 +1600,9 @@
       "id": "nonhuman-rights-project",
       "name": "Nonhuman Rights Project",
       "domain": "nonhumanrights.org",
-      "url": "https://www.nonhumanrights.org/litigation/",
+      "url": "https://www.nonhumanrights.org/",
       "category": "law",
-      "annotation": "Primary documents and explanations from litigation seeking legal rights for nonhuman animals.",
+      "annotation": "Essays, case histories, and legal arguments about nonhuman personhood, liberty, and the treatment of captive animals.",
       "topics": [
         "legal personhood",
         "animal rights",
@@ -1812,11 +1619,15 @@
       },
       "references": [
         {
+          "label": "Blog",
+          "url": "https://www.nonhumanrights.org/blog/"
+        },
+        {
           "label": "Tommy's case",
           "url": "https://www.nonhumanrights.org/client-tommy/"
         }
       ],
-      "link_pattern": "litigation archive plus cases",
+      "link_pattern": "root plus blog and cases",
       "assessment": {
         "value": "unrated",
         "notes": "focused legal source"
@@ -2034,7 +1845,7 @@
         "AI"
       ],
       "evidence_type": "scholar website",
-      "access": "Public HTML observed 2026-08-20",
+      "access": "Research index with substantive HTML summaries and mixed HTML/PDF papers; direct orb index requests can return 403. A Frontiers full-text paper returned 200 on 2026-10-09.",
       "reuse": "author and publisher copyright applies.",
       "license": {
         "status": "unknown",
@@ -2043,6 +1854,10 @@
         "scope": "No affirmative reuse permission was verified for this catalog target; public access alone does not establish an open license."
       },
       "references": [
+        {
+          "label": "Everything and nothing is conscious: default assumptions in science and ethics",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1700354/full"
+        },
         {
           "label": "Wild Animal Welfare in Local Policies",
           "url": "https://guarinicenter.org/wp-content/uploads/2024/03/Wild-Animal-Welfare-in-Local-Policies-Policy-Brief.pdf"
